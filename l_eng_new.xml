@@ -1,0 +1,4880 @@
+<?xml version="1.0" ?>
+
+<list>
+<!-- Inventory items-->
+<text>
+	<id>0</id>
+	<name>
+</name>
+</text>
+
+<!--Canned Beans-->
+<text>
+	<id>1</id>
+	<name>A nutritious and long-lasting can of baked beans. Will last two to five years depending on storage conditions.
+
+Hunger: +30
+Thirst: +5
+</name>
+</text>
+
+<!--Canned Tuna-->
+<text>
+	<id>2</id>
+	<name>A can of tuna. If unopened, it will last two to five years depending on storage conditions.
+
+Hunger: +20
+</name>
+</text>
+
+<!--Tactical Bacon-->
+<text>
+	<id>3</id>
+	<name>A can of bacon. Smoke flavor added! Fully cooked! Delicious. Unopened, it lasts over 10 years.
+
+Hunger: +35
+</name>
+</text>
+
+<!--Rice-->
+<text>
+	<id>4</id>
+	<name>A bag of long-grained rice, usually consumed when cooked with water. Conveniently packed for easier preparation.
+
+Hunger: +65
+</name>
+</text>
+
+<!--Tomato-->
+<text>
+	<id>5</id>
+	<name>A tomato. If we leave the fruit-vegetable debate aside, it is still tasty and edible, either raw, or cooked.
+
+Hunger: +15
+Thirst: +5
+Max Stack: 3
+Ingredient for: Scrambled Eggs with Tomatoes
+Can be planted with a pickaxe, pitchfork or shovel
+</name>
+</text>
+
+<!--Apple-->
+<text>
+	<id>6</id>
+	<name>An ordinary ripe apple. It is still firm, delicious, and worm-free.
+
+Hunger: +15
+Thirst: +5
+Max Stack: 3
+</name>
+</text>
+
+<!--Banana-->
+<text>
+	<id>7</id>
+	<name>A fresh banana, rich in potassium.
+
+Hunger: +15
+Thirst: +5
+Max Stack: 3
+</name>
+</text>
+
+<!--Pipsi-->
+<text>
+	<id>8</id>
+	<name>A comparatively unhealthy, [cola flavored] beverage, alternative to water - containing carbonated water, sweeteners, flavoring agents, coloring agents and preservatives.
+
+Thirst: +30
+</name>
+</text>
+
+<!--Spite-->
+<text>
+	<id>9</id>
+	<name>A comparatively unhealthy, [lemon-lime flavored] beverage, alternative to water - containing carbonated water, sweeteners, flavoring agents, coloring agents and preservatives.
+
+Thirst: +30
+</name>
+</text>
+
+<!--Kvas-->
+<text>
+	<id>10</id>
+	<name>A healthy, [fermented] beverage made from rye bread, tasty and delicious.
+
+Thirst: +50
+</name>
+</text>
+
+<!--5.56x45 Ammo-->
+<text>
+	<id>11</id>
+	<name>5.56x45mm NATO intermediate cartridge. Used in select rifles and LMGs.
+
+Chambered in: M4, M16A2, L85, AUG, FAMAS, Mini-14, M249
+Max Stack: 50
+</name>
+</text>
+
+<!--.45 ACP Ammo-->
+<text>
+	<id>12</id>
+	<name>.45 ACP pistol cartridge. Used in select pistols and SMGs.
+
+Chambered in: FNX, Colt 1911, UMP-45, Vector, Mini-UZI
+Max Stack: 60
+</name>
+</text>
+
+<!--7.62x54R Ammo-->
+<text>
+	<id>13</id>
+	<name>7.62x54mmR full power cartridge. Used in select rifles and LMGs.
+
+Chambered in: Mosin-Nagant, Sawn-off Mosin, SVD, SV-98
+Max Stack: 40
+</name>
+</text>
+
+<!--7.62x39 Ammo-->
+<text>
+	<id>14</id>
+	<name>7.62x39mm intermediate cartridge. Used in select rifles and LMGs.
+
+Chambered in: SKS, AKM, RPK
+Max Stack: 50
+</name>
+</text>
+
+<!--5.45x39 Ammo-->
+<text>
+	<id>15</id>
+	<name>5.45x39mm intermediate cartridge. Used in select rifles.
+
+Chambered in: AKs-74u, AK-74, AN-94
+Max Stack: 50
+</name>
+</text>
+
+<!--.357 Ammo-->
+<text>
+	<id>16</id>
+	<name>.357 M revolver cartridge. Used in select pistols, revolvers, and rifles.
+
+Chambered in: Magnum, Desert Eagle, Rossi M92, Sawn-off Rossi M92
+Max Stack: 50
+</name>
+</text>
+
+<!--12 Gauge Ammo-->
+<text>
+	<id>17</id>
+	<name>12 Gauge buck shell with 5 pellets. Used in shotguns.
+
+Chambered in: IZH-43, Sawn-off IZH-43, Remington, Saiga-12k
+Max Stack: 30
+</name>
+</text>
+
+<!--Bandage-->
+<text>
+	<id>18</id>
+	<name>A roll of sterile gauze bandage. Can be used to directly stop the bleeding.
+
+Apply Time: 2 sec
+Max Stack: 3
+</name>
+</text>
+
+<!--Blood Bag-->
+<text>
+	<id>19</id>
+	<name>A bag of whole blood [O−] with an IV set ready for transfusion. Single use to replace blood lost due to bleeding.
+
+Health: +50
+Immunity: +50
+Apply Time: 6 sec
+</name>
+</text>
+
+<!--Flare-->
+<text>
+	<id>20</id>
+	<name>Provides a small radius of bright red light for a brief time. Can be thrown to light up an area and attract zombies when it burns.
+
+Effect Duration: 90 sec
+Max Stack: 5
+Ingredient for: Molotov Cocktail
+</name>
+</text>
+
+<!--F1 Grenade-->
+<text>
+	<id>21</id>
+	<name>Fragmentation grenade type used by the Russian forces. It is lethal in a small radius, but can cause serious injuries at medium ranges.
+
+Damage: 1800             Damage per Fragment: 75
+Fuse Time: 2 sec          Fragments: 24
+</name>
+</text>
+
+<!--Battery-->
+<text>
+	<id>22</id>
+	<name>A common 9V battery, used to power various electronic devices.
+</name>
+</text>
+
+<!--Campfire Kit-->
+<text>
+	<id>23</id>
+	<name>A bundle of wood and kindling ready to be assembled. After deploying, can be used up to 3 times, each lasting 3 minutes.
+</name>
+</text>
+
+<!--Matches-->
+<text>
+	<id>24</id>
+	<name>A box of long kitchen safety matches to light a flame on demand. Store in a dry place and keep away from children.
+
+Can light a campfire kit or cigarettes.
+</name>
+</text>
+
+<!--Whiskey-->
+<text>
+	<id>25</id>
+	<name>"I've drunk whiskey, I feel healthy."
+
+Thirst: +20
+Temperature: +40
+Ingredient for: Molotov Cocktail
+</name>
+</text>
+
+<!--Rags-->
+<text>
+	<id>26</id>
+	<name>An assortment of torn rags, still... can be used to stop bleeding.
+
+Apply Time: 5 sec
+Max Stack: 3
+Ingredient for: Campfire Kit, Rope
+</name>
+</text>
+
+<!--Cranberries-->
+<text>
+	<id>27</id>
+	<name>Cranberries can be collected from the berry bushes found throughout the forests. They can be distinguished easily by their red, ripe and juicy berries.
+
+Hunger: +15
+Thirst: +15
+Max Stack: 5
+</name>
+</text>
+
+<!--Saline Bag-->
+<text>
+	<id>28</id>
+	<name>A bag of saline solution with an IV set ready for transfusion. Used to replace some blood lost due to bleeding.
+
+Health: +25
+Immunity: +25
+Apply Time: 6 sec
+</name>
+</text>
+
+<!--Vitamins-->
+<text>
+	<id>29</id>
+	<name>Multi-Vitamin supplements help boost blood to recover health twice as fast.
+
+Immunity: +10
+Health Regen: x2
+Effect Duration: 60 sec
+Max Stack: 3
+</name>
+</text>
+
+<!--Nota-Cola-->
+<text>
+	<id>30</id>
+	<name>A comparatively unhealthy, [cola flavored] beverage, alternative to water - containing carbonated water, sweeteners, flavoring agents, coloring agents and preservatives.
+
+Thirst: +30
+</name>
+</text>
+
+<!--Zucchini-->
+<text>
+	<id>31</id>
+	<name>This zucchini is just ripe enough to be eaten raw.
+
+Hunger: +20
+Thirst: +20
+Can be planted with a pickaxe, pitchfork or shovel
+</name>
+</text>
+
+<!--Bell Pepper-->
+<text>
+	<id>32</id>
+	<name>Bell pepper, green variety. Not so spicy and has plenty of nutrients and vitamins, can be used for cooking or eaten raw.
+
+Hunger: +20
+Thirst: +5
+Max Stack: 3
+Ingredient for: Pepper Steak
+Can be planted with a pickaxe, pitchfork or shovel
+</name>
+</text>
+
+<!--Orange-->
+<text>
+	<id>33</id>
+	<name>A popular citrus fruit, packed with vitamin "C".
+
+Hunger: +15
+Thirst: +15
+Max Stack: 3
+</name>
+</text>
+
+<!--Heat Pack-->
+<text>
+	<id>34</id>
+	<name>A small disposable heat source. Keeps you warm for a limited time when put into a jacket, pants or vest.
+
+Temperature: +25
+</name>
+</text>
+
+<!--Sewing Kit-->
+<text>
+	<id>35</id>
+	<name>A pocket-sized universal sewing kit, comes in handy for patching various clothes.
+
+Can restore 50% durability to clothing and some hats.
+</name>
+</text>
+
+<!--Cleaning Kit-->
+<text>
+	<id>36</id>
+	<name>A wooden box containing a complete and universal gun-care system.
+
+Can restore 25% durability to firearms.
+</name>
+</text>
+
+<!--Ash Wood Stick-->
+<text>
+	<id>37</id>
+	<name>A firm but flexible long wooden branch from the native ashwood trees.
+
+Ingredient for: Makeshift Fishing Rod, Bow
+</name>
+</text>
+
+<!--Stick-->
+<text>
+	<id>38</id>
+	<name>Multipurpose pieces of wood. Ideal for making arrows, kindling, and barricades. Drops from the native ashwood trees.
+
+Max Stack: 5
+Ingredient for: Campfire Kit, Handmade Arrows, Makeshift Backpack, Wooden Fence
+</name>
+</text>
+
+<!--Duct Tape-->
+<text>
+	<id>39</id>
+	<name>A versatile, strong and flexible wide adhesive tape. If it moves and shouldn't, use duct tape.
+
+Can repair 15% durability of clothes.
+Ingredient for: Makeshift Suppressor
+</name>
+</text>
+
+<!--Sack-->
+<text>
+	<id>40</id>
+	<name>A burlap sack, ideal for shipping and storing stuff. A drawstring closure can be improvised at the top of the bag using a rope.
+
+Ingredient for: Makeshift Backpack, Tarpaulin
+</name>
+</text>
+
+<!--Rope-->
+<text>
+	<id>41</id>
+	<name>A strong rope, used to tie stuff together, be it things or people.
+
+Can be attached to the waist as an accessory to carry an additional melee weapon.
+Ingredient for: Makeshift Backpack, Bow, Makeshift Fishing Rod
+</name>
+</text>
+
+<!--Hunting Knife-->
+<text>
+	<id>42</id>
+	<name>The hunting knife is a specialized tool designed with a slightly curved tip, primarily for field dressing game.
+
+Damage: 14-24
+Crit Chance: 10%
+Block Chance: 5%
+Attack Speed: 0.8s
+</name>
+</text>
+
+<!--Army Knife-->
+<text>
+	<id>43</id>
+	<name>A sharp combat knife with a sturdy blade and handle. Great for self-defense, but it has other, more mundane uses as well.
+
+Damage: 15-25
+Crit Chance: 15%
+Block Chance: 5%
+Attack Speed: 0.8s
+</name>
+</text>
+
+<!--Butcher Knife-->
+<text>
+	<id>44</id>
+	<name>A big, heavy, rusted knife. Designed to slash through thick raw meat. It can also crack bones easily. Mostly used by butchers.
+
+Damage: 16-26
+Crit Chance: 20%
+Block Chance: 5%
+Attack Speed: 0.8s
+</name>
+</text>
+
+<!--Morphine-->
+<text>
+	<id>45</id>
+	<name>Morphine prepares your body for "fight or flight" situations by increasing heart rate, blood flow, and alertness.
+
+Immunity: -10
+Drug Effect: Temporary invincibility and +20% movement speed
+Duration: 20 sec (health drops to 10% when effect ends)
+Max Stack: 3
+</name>
+</text>
+
+<!--Tetracycline-->
+<text>
+	<id>46</id>
+	<name>Broad spectrum antibiotics. Used to treat viral and bacterial infectious diseases and prevents sickness.
+
+Immunity: +10
+Drug Effect: Cures and prevents sickness and poisoning for the effect duration
+Effect Duration: 60 sec
+Max Stack: 3
+</name>
+</text>
+
+<!--Tomato Seeds-->
+<text>
+	<id>47</id>
+	<name>The text on the pack says: "A useful variety for outdoor cultivation in even the wet summers! Grow these vigorous, indeterminate plants to produce heavy crops of deep red fruits with a very good flavor".
+
+Uses: 5
+Can be planted with a pickaxe, pitchfork, or shovel
+</name>
+</text>
+
+<!--Bell Pepper Seeds-->
+<text>
+	<id>48</id>
+	<name>The text on the pack says: "A large bell pepper and a great variety for classic bell pepper taste. Bears large fruits with a blocky shape. Usually eaten while green, fruits have a sweet flavor and crunchy texture".
+
+Uses: 5
+Can be planted with a pickaxe, pitchfork, or shovel
+</name>
+</text>
+
+<!--Newspaper-->
+<text>
+	<id>49</id>
+	<name>Everyday newspapers found in homes before the apocalypse. They still contain useful crafts, guides and articles about survival and can be read to gain some experience.
+
+Experience: +50
+Ingredient for: Campfire Kit
+</name>
+</text>
+
+<!--Wood-->
+<text>
+	<id>50</id>
+	<name>Its wood, the basic survival material. Can be obtained by chopping up a tree using axes or bladed weapons.
+
+Ingredient for: Campfire Kit, Wooden Fence, Supply Cache, Metal Fence
+</name>
+</text>
+
+<!--Handmade Arrow-->
+<text>
+	<id>51</id>
+	<name>Wooden sticks carved using knives into finely matched arrows, but they are flimsy.
+
+Damage: 37-63
+Max Stack: 10
+75% chance to break after firing.
+Can be loaded into: Bow, Hunting Crossbow
+</name>
+</text>
+
+<!--Composite Arrow-->
+<text>
+	<id>52</id>
+	<name>Modern aluminum core composite bolts with high impact.
+
+Damage: 56-94
+Max Stack: 10
+Will not break after firing.
+Can be loaded into: Bow, Hunting Crossbow
+</name>
+</text>
+
+<!--Gas Can-->
+<text>
+	<id>53</id>
+	<name>A metal canister, filled with large volumes of gasoline.
+
+Provides 25% fuel for vehicles, chainsaws, and generators per use
+</name>
+</text>
+
+<!--Water Bottle-->
+<text>
+	<id>54</id>
+	<name>A common reusable plastic bottle. Can be filled with water from water pumps.
+
+Thirst: +12
+Uses: 4
+Can be filled with water from a pump
+Can collect rainwater when left on the ground while raining
+Ingredient for: Makeshift Suppressor
+</name>
+</text>
+
+<!--Canteen-->
+<text>
+	<id>55</id>
+	<name>A reusable military grade plastic bottle used by the army and campers. Can be filled with water from water pumps.
+
+Thirst: +25
+Uses: 4
+Can be filled with water from a pump
+</name>
+</text>
+
+<!--Landmine-->
+<text>
+	<id>56</id>
+	<name>Anti-personnel mine. Provides a nasty surprise for anybody unlucky enough to step on it.
+
+Damage: 1800          Damage per Fragment: 75
+Fragments: 24
+Explodes when triggered by entities other than you and your teammates.
+</name>
+</text>
+
+<!--Bear Trap-->
+<text>
+	<id>57</id>
+	<name>Old-fashioned but functional, this marvel of mechanical engineering can almost snap your leg in half.
+
+Damage: 200
+Can be reused again
+Not triggered by the player
+</name>
+</text>
+
+<!--.22 LR Ammo-->
+<text>
+	<id>58</id>
+	<name>.22 Long rifle rimfire cartridge. Used in small pistols and rifles.
+
+Chambered in: Sporter22, MK II
+Max Stack: 80
+</name>
+</text>
+
+<!--Vehicle Repair Kit-->
+<text>
+	<id>59</id>
+	<name>A toolkit containing mechanical tools that can be used for repairing and restoring damaged vehicles.
+
+Can repair 25% durability of vehicles.
+</name>
+</text>
+
+<!--Raw Steak-->
+<text>
+	<id>60</id>
+	<name>A raw chunk of meat from a deer. Tougher, darker meat, it can be quite tasty once prepared.
+
+Hunger: +25
+Thirst: +10
+50% chance of getting sick after consumption
+Can be cooked over a campfire
+Ingredient for: Pepper Steak
+</name>
+</text>
+
+<!--Cooked Steak-->
+<text>
+	<id>61</id>
+	<name>Raw venison steak roasted over a campfire to succulent perfection.
+
+Hunger: +50
+Thirst: +10
+Health: +15
+</name>
+</text>
+
+<!--Nuka-Cola-->
+<text>
+	<id>62</id>
+	<name>A bottle of Nuka-Cola, the flavored soft drink of the post-nuclear world. Warm and flat. Invigorating, refreshing Nukem.
+
+Thirst: +100
+Experience: +200
+Health Regen: x2
+Effect Duration: 60 sec
+</name>
+</text>
+
+<!--Energy Drink-->
+<text>
+	<id>63</id>
+	<name>A straightforward option for a bolt of athletic energy, it combines caffeine, vitamins, and a familiar Mountain Dew taste.
+
+Thirst: +20
+Movement Speed: +15%
+Effect Duration: 20 sec
+</name>
+</text>
+
+<!--Zucchini Seeds-->
+<text>
+	<id>68</id>
+	<name>The text on the pack says: "This is our most popular zucchini. An early, very productive, bushy plant with an open habit. The flesh is delicious, creamy white, tender and firm".
+
+Uses: 5
+Can be planted with a pickaxe, pitchfork or shovel
+</name>
+</text>
+
+<!--9mm Ammo-->
+<text>
+	<id>69</id>
+	<name>9x19mm Parabellum pistol cartridge. Used in select pistols and SMGs.
+
+Chambered in: Glock, MP5, MAC-10
+Max Stack: 60
+</name>
+</text>
+
+<!--Barbed Wire-->
+<text>
+	<id>70</id>
+	<name>A roll of gnarly barbed wire made for fencing off walls and barriers.
+
+Deals minor damage and slows enemies by 2 seconds when triggered.
+Ingredient for: Barbed Wire Baseball Bat
+</name>
+</text>
+
+<!--Raw Rabbit Meat-->
+<text>
+	<id>71</id>
+	<name>The posterior leg of a rabbit. When cooked provides quite a tasty snack.
+
+Hunger: +25
+Thirst: +10
+Ingredient for: Pepper Steak
+50% chance of getting sick after consumption
+Can be cooked over a campfire
+</name>
+</text>
+
+<!--Cooked Rabbit Meat-->
+<text>
+	<id>72</id>
+	<name>Rabbit leg roasted over a campfire, tender and flavorful.
+
+Hunger: +35
+Thirst: +10
+Health: +30
+</name>
+</text>
+
+<!--Cloudberries-->
+<text>
+	<id>73</id>
+	<name>Cloudberries can only be found around lakes. Although very healthy, this unusual berry gives off a musky odor.
+
+Hunger: +10
+Thirst: +10
+Health Regen: x2
+Effect Duration: 30 sec
+Max Stack: 5
+</name>
+</text>
+
+<!--Raspberries-->
+<text>
+	<id>74</id>
+	<name>Raspberries can be collected from the berry bushes found throughout the forests. These berries are juicy with high water content.
+
+Hunger: +10
+Thirst: +20
+Max Stack: 5
+</name>
+</text>
+
+<!--Radio-->
+<text>
+	<id>75</id>
+	<name>A device, such as a walkie-talkie, that transmits or receives radio signals. Its current set frequency picks up the faint radio signals of crashed military transports.
+
+Reveals nearby military crash sites
+Each use consumes 10% battery charge
+</name>
+</text>
+
+<!--RDS-->
+<text>
+	<id>76</id>
+	<name>A standardized rail-mounted, non-magnifying optic with a red dot projected onto the lens.
+
+Spread: -1
+Headshot Chance: +5%
+Fits on: MP5, UMP-45, Vector, AKs-74u, Ak-74, AN-94, AKM, M4, M16A2, L85, FN-FAL, RPK, Saiga-12k, Bizon, Groza, VSS, SV-98, Mini-14, AS-VAL, M249, Hunting Crossbow
+</name>
+</text>
+
+<!--PU Scope-->
+<text>
+	<id>77</id>
+	<name>A 3.5x scope of Soviet manufacture from the WW2 era.
+
+Spread: -2
+Headshot Chance: +15%
+Aiming Distance: +20%
+Fits on: SKS, Mosin-Nagant, M70, Blaze
+</name>
+</text>
+
+<!--PSO-1 Scope-->
+<text>
+	<id>78</id>
+	<name>A marksman telescopic sight with fixed 4x magnification and ballistic compensation in range from 100m to 1000m.
+
+Spread: -2
+Headshot Chance: +15%
+Aiming Distance: +20%
+Fits on: AKs-74u, Ak-74, AN-94, AKM, RPK, Bizon, Groza, VSS
+</name>
+</text>
+
+<!--ACOG Scope-->
+<text>
+	<id>79</id>
+	<name>Advanced Combat Optical Gunsight with 4x magnification level. Attachable to any weapon with a standardized rail system.
+
+Spread: -2
+Headshot Chance: +15%
+Aiming Distance: +20%
+Fits on: MP5, UMP-45, Vector, M4, M16A2, L85, FN-FAL, SV-98, Mini-14, AS-VAL, M249, Hunting Crossbow
+</name>
+</text>
+
+<!--5.45 Suppressor-->
+<text>
+	<id>80</id>
+	<name>An attachment for the barrel of a firearm that reduces the amount of noise generated by firing. This variant is designed for the 5.45mm caliber.
+
+Suppresses weapon noise
+Fits on: AKs-74u, AN-94, Ak-74
+</name>
+</text>
+
+<!--5.56 Suppressor-->
+<text>
+	<id>81</id>
+	<name>An attachment for the barrel of a firearm that reduces the amount of noise generated by firing. This variant is designed for the 5.56mm caliber.
+
+Suppresses weapon noise
+Fits on: M4, M16A2, L85, AUG, M249
+</name>
+</text>
+
+<!--Hacksaw-->
+<text>
+	<id>82</id>
+	<name>A fine-tooth hand saw with a blade held under tension in a frame, used for cutting materials such as metal or plastics.
+
+Can saw down the barrels of certain firearms.
+Can be crafted: Improvised VOG-25 Grenade (requires VOG-25 Grenade)
+</name>
+</text>
+
+<!--Bandolier-->
+<text>
+	<id>83</id>
+	<name>Attached on the rifle stock, the bandolier is designed to keep ammunition readily available during hunting and combat.
+
+Reload Speed: +30%
+Fits on: IZH-43, Remington, SKS, Mosin-Nagant, Rossi M92, M70, Blaze
+</name>
+</text>
+
+<!--MRE-->
+<text>
+	<id>85</id>
+	<name>Meal Ready-to-Eat [MRE], a self-contained, individual field ration intended for use by the military. These rations are designed to provide a complete, balanced meal for one person.
+
+Hunger: +40
+Thirst: +40
+Each use reduces capacity by 50%
+</name>
+</text>
+
+<!--Spinning Fishing Rod-->
+<text>
+	<id>86</id>
+	<name>An extendable fishing rod. Highly portable, it makes fishing seem simple.
+
+Used for fishing
+Each use consumes 10% durability
+</name>
+</text>
+
+<!--Simple Fishing Rod-->
+<text>
+	<id>87</id>
+	<name>A piece of rope tied to a stick. This marvelous invention can be surprisingly useful, but it's very flimsy.
+
+Used for fishing
+Each use consumes 25% durability
+</name>
+</text>
+
+<!--Protective Case-->
+<text>
+	<id>88</id>
+	<name>A lost yellow case sealed with loot, belongs to a group of neutral survivors.
+
+Items lost by survivors
+Can be returned to them for goodwill, or kept for yourself
+</name>
+</text>
+
+<!--Quick-Draw Mag-->
+<text>
+	<id>89</id>
+	<name>Attached at the end of a magazine, it makes easy work to swap magazines from pouches, pockets or bags.
+
+Reload Speed: +30%
+Fits on: AKs-74u, Ak-74, AN-94, AKM, M4, M16A2, L85, FN-FAL, AUG, RPK, Saiga-12k, Groza, VSS, FAMAS, Mini-14
+</name>
+</text>
+
+<!--Choke-->
+<text>
+	<id>90</id>
+	<name>The choke constricts the muzzle end of the barrel to alter the shot into a concentrated pattern.
+
+Reduces pellet spread for shotguns
+Fits on: IZH-43, Remington, Saiga-12k
+</name>
+</text>
+
+<!--Herring-->
+<text>
+	<id>91</id>
+	<name>Herring, a small, silvery, forage fish known for its streamlined bodies and iridescent scales.
+
+Hunger: +10
+Thirst: +10
+50% chance of getting sick after consumption
+Can be cooked over a fire
+</name>
+</text>
+
+<!--Salmon-->
+<text>
+	<id>92</id>
+	<name>Salmon, a diverse group of fish known for its migratory patterns, moving between freshwater and saltwater habitats.
+
+Hunger: +35
+Thirst: +15
+50% chance of getting sick after consumption
+Can be cooked over a fire
+</name>
+</text>
+
+<!--Perch-->
+<text>
+	<id>93</id>
+	<name>Perch are known for having two dorsal fins, one spiny and one soft, and are typically carnivorous bottom-dwellers.
+
+Hunger: +10
+Thirst: +10
+50% chance of getting sick after consumption
+Can be cooked over a fire
+</name>
+</text>
+
+<!--Bass-->
+<text>
+	<id>94</id>
+	<name>Bass is a popular game fish known for its fighting ability and tasty white flesh.
+
+Hunger: +35
+Thirst: +15
+50% chance of getting sick after consumption
+Can be cooked over a fire
+</name>
+</text>
+
+<!--Small Grilled Fish-->
+<text>
+	<id>95</id>
+	<name>A small fish fillet roasted over a campfire for a tasty, decent sized snack.
+
+Hunger: +25
+Thirst: +10
+Health: +10
+</name>
+</text>
+
+<!--Large Grilled Fish-->
+<text>
+	<id>96</id>
+	<name>A prepared fish fillet seared over the campfire. It's fully-cooked, flaky, tender and filling.
+
+Hunger: +50
+Thirst: +10
+Health: +10
+</name>
+</text>
+
+<!--Mushroom-->
+<text>
+	<id>97</id>
+	<name>A mysterious mushroom with unusual properties...
+
+The road ahead is rough
+</name>
+</text>
+
+<!--Long-Range Scope-->
+<text>
+	<id>98</id>
+	<name>A rifle scope with variable zoom. Factory default zeroed to 200m and manually adjustable to 800m.
+
+Spread: -3
+Headshot Chance: +25%
+Aiming Distance: +50%
+Fits on: SKS, Mosin-Nagant, SVD, SV-98, M70, Blaze, Mini-14, FN-FAL, AS-VAL, Hunting Crossbow
+</name>
+</text>
+
+<!--Claymore-->
+<text>
+	<id>99</id>
+	<name>A directional explosive mine. A convenient label reminds the user to point it toward the enemy.
+
+Damage: 1575          Damage per Fragment: 75
+Fragments: 21
+Explodes and fires fragments in a specified direction when triggered by anyone except you and your teammates.
+</name>
+</text>
+
+<!--9x18 Ammo-->
+<text>
+	<id>100</id>
+	<name>9x18mm Makarov pistol round. Used in select pistols and SMGs.
+
+Chambered in: PM, PB, Bizon
+Max Stack: 60
+</name>
+</text>
+
+<!--9x39 Ammo-->
+<text>
+	<id>101</id>
+	<name>9x39mm intermediate subsonic cartridge. Used in select rifles.
+
+Chambered in: VSS, Groza
+Max Stack: 50
+</name>
+</text>
+
+<!--Molotov Cocktail-->
+<text>
+	<id>102</id>
+	<name>An incendiary Molotov cocktail, improvised by attaching a flare to a bottle of good whiskey. It surprisingly does the job.
+
+Creates a lingering flame on impact, damaging creatures
+</name>
+</text>
+
+<!--Flare Gun-->
+<text>
+	<id>103</id>
+	<name>A single-use flare gun loaded with a flare cartridge. When fired, it signals for an air drop supply crate of random tier.
+
+Fires a flare into the sky, calling in an airdrop after 20 seconds
+Can attract nearby zombies
+</name>
+</text>
+
+<!--.50 Cal Ammo-->
+<text>
+	<id>104</id>
+	<name>The specific type of .50 caliber ammunition and its availability in belt-fed configurations can be very based, for the application of gun turrets.
+
+Ammo used in the Humvee's gun turret
+Can be mounted on the Humvee's machine gun
+</name>
+</text>
+
+<!--40mm Grenade-->
+<text>
+	<id>105</id>
+	<name>Charges for the M203 under-barrel grenade launcher. Explodes on impact.
+
+Damage: 540          Damage per Fragment: 45
+Fragments: 12
+Max Stack: 10
+Fired from an M203 Grenade Launcher, explodes dealing massive damage
+</name>
+</text>
+
+<!--VOG-25 Grenade-->
+<text>
+	<id>106</id>
+	<name>Charges for the GP-25 under-barrel grenade launcher. Explodes on impact.
+
+Damage: 540          Damage per Fragment: 45
+Fragments: 12
+Max Stack: 10
+Fired from a GP-25 Grenade Launcher, explodes dealing massive damage
+Can be crafted: Improvised VOG-25 Grenade (requires Hacksaw)
+</name>
+</text>
+
+<!--M203 Grenade Launcher-->
+<text>
+	<id>107</id>
+	<name>The M203 is a single-shot 40mm, muzzle-loaded, under-barrel grenade launcher designed to attach to a rifle. It's a Western-style design.
+
+Grenade launcher for NATO firearms
+Can load and fire 40mm grenades
+Fits on: M4, M16A2, L85, FN-FAL, FAMAS
+</name>
+</text>
+
+<!--GP-25 Grenade Launcher-->
+<text>
+	<id>108</id>
+	<name>The GP-25 belongs to the family of Russian grenade launchers that fit on AK assault rifles. It is muzzle-loaded.
+
+Grenade launcher for Warsaw Pact firearms
+Can load and fire VOG-25 grenades
+Fits on: AK-74, AKM, AN-94
+</name>
+</text>
+
+<!--Empty Blood Bag-->
+<text>
+	<id>109</id>
+	<name>An IV set along with a sterile blood bag can be used to draw your own blood for a single use in the future.
+
+Use when health is above 50%
+Transfuses blood into a Blood Bag
+</name>
+</text>
+
+<!--Sharpening Stone-->
+<text>
+	<id>110</id>
+	<name>The whetstone can be used to sharpen the edges of various bladed weapons and tools.
+
+Sharpens weapons
+Restores 25% durability to certain melee weapons
+</name>
+</text>
+
+<!--AK Grip-->
+<text>
+	<id>111</id>
+	<name>A universal tactical forend for AK series weapons.
+
+Greatly reduces recoil when firing
+Fits on: AK-74, AKM, RPK
+Can be crafted: Laser AK Grip (requires Laser Sight)
+</name>
+</text>
+
+<!--Rail Grip-->
+<text>
+	<id>112</id>
+	<name>A foregrip for firearms with Picatinny rails.
+
+Greatly reduces recoil when firing
+Fits on: UMP-45, M4, L85, Vector
+Can be crafted: Laser Rail Grip (requires Laser Sight)
+</name>
+</text>
+
+<!--Marked Map-->
+<text>
+	<id>113</id>
+	<name>A map with some markings, contains notes about interesting places, checkpoints, POIs and vehicles on the current island.
+
+A marked map revealing hidden locations on the island
+Only works on the current island
+If not used on this island, will disappear from the inventory on the next island
+</name>
+</text>
+
+<!--Elderberries-->
+<text>
+	<id>114</id>
+	<name>Elderberries are small, dark purple colored black berries, known for their fragrant creamy flavor and rich nutrients. They grow only in swamps.
+
+Hunger: +10
+Thirst: +10
+Health: +2
+Max Stack: 5
+</name>
+</text>
+
+<!--Binoculars-->
+<text>
+	<id>115</id>
+	<name>A pair of binoculars for scouting distant areas.
+</name>
+</text>
+
+<!--Scout Handbook-->
+<text>
+	<id>116</id>
+	<name>The scout handbook provides a comprehensive guide for scouting activities, covering areas like camping, survival skills, first aid, and leadership.
+
+Experience: +200
+</name>
+</text>
+
+<!--Tarpaulin-->
+<text>
+	<id>117</id>
+	<name>Burlap sacks rolled into a roll for later use.
+
+Can be crafted: Supply Cache (requires Wood)
+</name>
+</text>
+
+<!--Medical Tape-->
+<text>
+	<id>118</id>
+	<name>A type of medical tape with adhesive properties, can be used to directly stop the bleeding in an instant.
+
+Stops bleeding
+Use Time: 1 sec
+Max Stack: 5
+</name>
+</text>
+
+<!--Smoke Grenade-->
+<text>
+	<id>119</id>
+	<name>A smoke grenade used by western forces. The smoke is colorless and can provide complete cover against enemies.
+
+Creates a smoke screen for 15 seconds, obscuring enemy vision
+</name>
+</text>
+
+<!--Cigarettes-->
+<text>
+	<id>120</id>
+	<name>"Russian cigarettes" filled with a high-nicotine, potent tobacco called makhorka and were popular throughout the Soviet era.
+
+Smoking is harmful to health
+Temperature: +5
+Reputation: +5 when given to survivors
+Effect: Slows hunger and thirst rate
+Duration: 30 sec
+Max Stack: 10
+</name>
+</text>
+
+<!--Beer-->
+<text>
+	<id>121</id>
+	<name>Beer cans usually last 6-9 months at room temperature. The taste is a little off, but is still refreshingly sweet.
+
+Remember, drinking is harmful, consume in moderation
+Thirst: +20
+Temperature: +10
+</name>
+</text>
+
+<!--Epoxy-->
+<text>
+	<id>122</id>
+	<name>Epoxy glue is a strong, two-part adhesive made from epoxy resin and a hardener.
+
+Repairs most equipment by 25% durability
+</name>
+</text>
+
+<!--Fertilizer-->
+<text>
+	<id>123</id>
+	<name>Composed of plant matter and animal wastes, it is rich in essential nutrients that plants love.
+
+Increases plant growth rate
+</name>
+</text>
+
+<!--Laser Sight-->
+<text>
+	<id>124</id>
+	<name>Laser sights project a laser beam onto a target, aiding in aiming speed and recoil recovery.
+
+Aim Speed and Recoil Recovery: +30%
+Fits on: UMP-45, Vector, AKs-74u, Ak-74, AN-94, AKM, M4, L85, RPK, Mosin-Nagant, SKS, SVD, SV-98, VSS, M70, Saiga-12k, Blaze, Mini-14, AS-VAL
+Can be crafted: Laser AK Grip (requires AK Grip), Laser Rail Grip (requires Rail Grip)
+</name>
+</text>
+
+<!--Lighter-->
+<text>
+	<id>125</id>
+	<name>The lighter creates a flame using a mechanical ignition system, powered by a flint and wheel mechanism.
+
+Can light campfire kits or cigarettes
+</name>
+</text>
+
+<!--Keycard-->
+<text>
+	<id>126</id>
+	<name>An officer's keycard. A critical key for managing access to sensitive areas, authorized gear and maintaining security within a military facility.
+
+A keycard of unknown origin, opens special bunker doors
+Only works on bunkers on the current island
+</name>
+</text>
+
+<!--Makeshift Suppressor-->
+<text>
+	<id>127</id>
+	<name>A homemade DIY suppressor that can reduce some firearm noise. It just works.
+
+A makeshift homemade suppressor, slightly reduces weapon noise
+Fits on: M4, M16A2, L85, AUG, FN-FAL, AKs-74u, AN-94, Ak-74, AKM, FAMAS, Mini-14, M249
+</name>
+</text>
+
+<!--PVS-4 Night Vision Scope-->
+<text>
+	<id>128</id>
+	<name>A standardized rail-mounted 3.5x magnifier with night vision, made for NATO firearms.
+
+A standardized rail-mounted night vision scope
+Spread: -2
+Headshot Chance: +12%
+Aiming Distance: +10%
+Night Vision: +10%
+Fits on: MP5, UMP-45, Vector, M4, M16A2, L85, FN-FAL, SV-98, Mini-14, AS-VAL, M249
+</name>
+</text>
+
+<!--1PN51 Night Vision Scope-->
+<text>
+	<id>129</id>
+	<name>A side-mounted 3.5x magnifier with night vision, suitable for Warsaw Pact firearms.
+
+A side-mounted night vision scope
+Spread: -2
+Headshot Chance: +12%
+Aiming Distance: +10%
+Night Vision: +10%
+Fits on: AKs-74u, Ak-74, AN-94, AKM, RPK, Bizon, Groza, VSS, Saiga-12k
+</name>
+</text>
+
+<!--C-MAG 5.56-->
+<text>
+	<id>130</id>
+	<name>A 100-round 5.56x45 dual drum magazine.
+
+Dual 100-round drum magazine for 5.56×45
+Fits on: M4, M16A2, AUG
+</name>
+</text>
+
+<!--7.62x39 Drum Mag-->
+<text>
+	<id>131</id>
+	<name>A 75-round 7.62x39 drum magazine.
+
+75-round drum magazine for 7.62×39
+Fits on: AKM, RPK
+</name>
+</text>
+
+<!--Frying Pan-->
+<text>
+	<id>132</id>
+	<name>Bon Appétit.
+
+Can bullets even penetrate this?
+Damage: 25-41
+Crit Chance: 40%
+Block Chance: 35%
+Attack Speed: 0.9s
+Can Cook: Fried Egg (requires Egg + Campfire), Scrambled Eggs with Tomatoes (requires Egg + Tomato + Campfire), Pepper Steak (requires Raw Steak/Raw Rabbit/Raw Chicken + Bell Pepper + Campfire)
+</name>
+</text>
+
+<!--Gas Mask-->
+<text>
+	<id>133</id>
+	<name>A form of personal protective equipment (PPE) that protects the wearer from inhaling airborne pollutants and toxic gases.
+
+Uses durability to filter contaminated air
+Heat: +2
+Provides immunity against toxic gas contaminated areas; durability wears constantly in contaminated areas
+Can be worn as a liner to wear other headgear on top of it
+Click the empty head slot to unequip it when used as a liner
+</name>
+</text>
+
+<!--Balaclava-->
+<text>
+	<id>134</id>
+	<name>A close-fitting head covering that protects the head, face and neck, leaving only the eyes or parts of the face exposed.
+
+Heat: +2
+Can be worn as a liner to wear other headgear on top of it
+Click the empty head slot to unequip it when used as a liner
+</name>
+</text>
+
+<!--GP-5 Gas Mask-->
+<text>
+	<id>135</id>
+	<name>A full-face Soviet gas mask with a frontal mount for filter cartridges. Used to protect from airborne pollutants and contaminated air.
+
+Heat: +1
+Uses durability to filter contaminated air
+Provides immunity against toxic gas; has more durability but wears constantly in contaminated areas
+Can be worn as a liner to wear other headgear on top of it
+Click the empty head slot to unequip it when used as a liner
+</name>
+</text>
+
+<!--Clown Mask-->
+<text>
+	<id>136</id>
+	<name>The headgear of choice of the clowning around degenerate island thugs.
+
+When worn, killing neutral survivors or merchants does not reduce reputation
+Heat: +1
+Can be worn as a liner to wear other headgear on top of it
+Click the empty head slot to unequip it when used as a liner
+</name>
+</text>
+
+<!--Dog Gear-->
+<text>
+	<id>137</id>
+	<name>Originally designed for military use, its good quality quickly brought it to the civilian market.
+
+Melee Block Chance: +5%
+When worn, looting zombies has no penalty
+</name>
+</text>
+
+<!--.308 Ammo-->
+<text>
+	<id>138</id>
+	<name>.308 Winchester full-power cartridge. Used in select rifles.
+
+Chambered in: M70, FN-FAL, Blaze, Sawn-off Blaze, Longhorn
+Max Stack: 40
+</name>
+</text>
+
+<!--Sneakers-->
+<text>
+	<id>139</id>
+	<name>A pair of ordinary sneakers.
+
+Standard athletic shoes
+Movement Speed: +5%
+May be damaged by stepping in acid
+</name>
+</text>
+
+<!--Woodland Boots-->
+<text>
+	<id>140</id>
+	<name>Woodland boots designed for wet environments.
+
+Combat boots designed for wet environments
+Movement Speed: +5%, ignores swamp slowdown
+May be damaged by stepping in acid
+</name>
+</text>
+
+<!--Assault Boots-->
+<text>
+	<id>141</id>
+	<name>Designed for soldiers in combat.
+
+Movement Speed: +10%, ignores swamp slowdown
+Allows holstering a knife
+May be damaged by stepping in acid
+</name>
+</text>
+
+<!--Rifle Sling-->
+<text>
+	<id>142</id>
+	<name>Can be attached as a shoulder accessory to carry an additional primary weapon on your back.
+
+Allows you to holster an additional firearm on your back
+Click the empty weapon slot to unequip
+</name>
+</text>
+
+<!--Charcoal Tablets-->
+<text>
+	<id>143</id>
+	<name>Activated charcoal tablets that can filter out toxins.
+
+Restores 50% durability to gas masks
+</name>
+</text>
+
+<!--Blowtorch-->
+<text>
+	<id>144</id>
+	<name>Can weld 25% durability of vehicles or metallic equipment.
+
+Repairs vehicles or metal equipment by 25% durability
+Can reinforce vehicles with metal plates, making them immune to collision damage
+</name>
+</text>
+
+<!--Ghillie Suit-->
+<text>
+	<id>145</id>
+	<name>A camouflage suit used to completely conceal the wearer in a natural environment.
+
+Activates when durability is above 50%. Grants invisibility when standing still for a short time.
+Moving or attacking breaks invisibility. Invisible targets cannot be seen.
+</name>
+</text>
+
+<!--Underbarrel Flashlight-->
+<text>
+	<id>146</id>
+	<name>A mounted underbarrel flashlight for primary weapons, providing illumination at night.
+
+Attaches to firearms or assault helmets, providing a small cone of light at night
+Fits on: UMP-45, Vector, AKs-74u, Ak-74, AN-94, AKM, M4, L85, RPK, Mosin-Nagant, SKS, SVD, SV-98, VSS, M70, Saiga-12k, Blaze, Mini-14, AS-VAL
+</name>
+</text>
+
+<!--Laser AK Grip-->
+<text>
+	<id>147</id>
+	<name>A universal front grip and side-mounted laser sight for AK series firearms.
+Greatly reduces recoil when firing
+Aim Speed and Recoil Recovery: +30%
+
+Universal foregrip with side-mounted laser for AK series rifles
+Fits on: AK-74, AKM, RPK
+</name>
+</text>
+
+<!--Laser Rail Grip-->
+<text>
+	<id>148</id>
+	<name>A foregrip and laser sight for firearms with Picatinny rails.
+Greatly reduces recoil when firing
+Aim Speed and Recoil Recovery: +30%
+
+Foregrip with laser sight for Picatinny rail-equipped firearms
+Fits on: UMP-45, Vector, M4, L85
+</name>
+</text>
+
+<!-- Pistols-->
+<!-- fnx -->
+<text>
+	<id>211</id>
+	<name>A nimble pistol favored by many.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 21-35             Spread: 6
+Aim Speed: 4               Recoil: 9
+Run Penalty: 2              Ammo: .45 ACP
+Mag Capacity: 15
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- colt -->
+<text>
+	<id>212</id>
+	<name>"God created men, Colt made them equal."
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 18-30             Spread: 6
+Aim Speed: 4               Recoil: 10
+Run Penalty: 2              Ammo: .45 ACP
+Mag Capacity: 7
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- magnum -->
+<text>
+	<id>213</id>
+	<name>One of the most powerful handguns in the world.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 34-56             Spread: 6
+Aim Speed: 2               Recoil: 15
+Run Penalty: 3              Ammo: .357
+Mag Capacity: 6
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- glock -->
+<text>
+	<id>214</id>
+	<name>A semi-automatic pistol made in Austria.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 15-25             Spread: 5
+Aim Speed: 4               Recoil: 10
+Run Penalty: 2              Ammo: 9mm
+Mag Capacity: 18
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- amphibia-->
+<text>
+	<id>215</id>
+	<name>A pistol designed for underwater combat by naval personnel.
+Integrated Suppressor
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 11-19             Spread: 4
+Aim Speed: 4               Recoil: 9
+Run Penalty: 3              Ammo: .22 LR
+Mag Capacity: 10
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- IZH S-->
+<text>
+	<id>216</id>
+	<name>A sawn-off version of the IZH-43 shotgun.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 22-188           Spread: 13
+Aim Speed: 3               Recoil: 20
+Run Penalty: 2              Ammo: 12 Gauge
+Mag Capacity: 2
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- Mosin S-->
+<text>
+	<id>217</id>
+	<name>A sawn-off version of the Mosin-Nagant rifle.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 79-131           Spread: 12
+Aim Speed: 3               Recoil: 25
+Run Penalty: 1              Ammo: 7.62x54mmR
+Mag Capacity: 5
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- Rare colt-->
+<text>
+	<id>218</id>
+	<name>A meticulously engraved Colt pistol.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 18-30             Spread: 5
+Aim Speed: 4               Recoil: 10
+Run Penalty: 2              Ammo: .45 ACP
+Mag Capacity: 12
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- Mac-->
+<text>
+	<id>219</id>
+	<name>One of the world-famous firearms made in the USA.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 15-25             Spread: 10
+Aim Speed: 3               Recoil: 2
+Run Penalty: 0              Reload Time: 2s
+Mag Capacity: 30          Ammo: 9mm
+Fire Rate: 650 RPM
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- Rossi-->
+<text>
+	<id>220</id>
+	<name>A sawn-off version of the Rossi M92 lever-action rifle.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 34-56             Spread: 11
+Aim Speed: 3               Recoil: 17
+Run Penalty: 2              Ammo: .357
+Mag Capacity: 7
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- PM-->
+<text>
+	<id>221</id>
+	<name>Small, lightweight, favored by Soviet officers.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 18-30             Spread: 8
+Aim Speed: 4               Recoil: 10
+Run Penalty: 2              Ammo: 9x18mm
+Mag Capacity: 8
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- PB-->
+<text>
+	<id>222</id>
+	<name>A Soviet integrally suppressed, semi-automatic pistol developed for covert special operations by the KGB and Spetsnaz.
+Integrated Suppressor
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 18-30             Spread: 9
+Aim Speed: 4               Recoil: 8
+Run Penalty: 2              Ammo: 9x18mm
+Mag Capacity: 8
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- Deagle-->
+<text>
+	<id>223</id>
+	<name>A favorite among firearm collectors.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 30-50             Spread: 6
+Aim Speed: 3               Recoil: 13
+Run Penalty: 2              Ammo: .357
+Mag Capacity: 9
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- M79-->
+<text>
+	<id>224</id>
+	<name>It might look outdated, but it's still effective.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 45-540           Spread: 8
+Aim Speed: 3               Recoil: 6
+Run Penalty: 2              Ammo: 40mm Grenade
+Mag Capacity: 1
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- Blaze S-->
+<text>
+	<id>225</id>
+	<name>A sawn-off version of the Blaze double-barreled rifle.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 71-119           Spread: 12
+Aim Speed: 3               Recoil: 10
+Run Penalty: 2              Ammo: .308
+Mag Capacity: 2
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- Longhorn -->
+<text>
+	<id>226</id>
+	<name>Can only hold one round, but its integrated scope provides exceptional accuracy.
+Integrated Scope
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 79-131           Spread: 1
+Aim Speed: 2               Recoil: 25
+Run Penalty: 2              Ammo: .308
+Mag Capacity: 1
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- Mini-UZI-->
+<text>
+	<id>227</id>
+	<name>A lightweight submachine gun manufactured in Israel.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 18-30             Spread: 10
+Aim Speed: 3               Recoil: 2
+Run Penalty: 0              Reload Time: 2s
+Mag Capacity: 22          Ammo: .45 ACP
+Fire Rate: 600 RPM
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- Main Weapons-->
+
+<!-- Mosin-Nagant-->
+<text>
+	<id>232</id>
+	<name>A rifle produced in Russia in the late 19th century.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 79-131           Spread: 3
+Aim Speed: 1               Recoil: 20
+Run Penalty: 5              Reload Time: 3s
+Mag Capacity: 5           Ammo: 7.62x54mmR
+Fire Rate: 46 RPM         Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- M4-->
+<text>
+	<id>233</id>
+	<name>A reliable rifle used by the US military.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 22-38             Spread: 4
+Aim Speed: 1.5             Recoil: 3
+Run Penalty: 2              Reload Time: 2s
+Mag Capacity: 30          Ammo: 5.56x45mm
+Fire Rate: 600 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- IZH-43-->
+<text>
+	<id>234</id>
+	<name>A hunter's best friend.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 22-188           Spread: 13
+Aim Speed: 1               Recoil: 20
+Run Penalty: 2              Reload Time: 2s
+Mag Capacity: 2           Ammo: 12 Gauge
+Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- AK-74-->
+<text>
+	<id>235</id>
+	<name>A Soviet-made rifle built for harsh environments.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 26-44             Spread: 5
+Aim Speed: 1.5             Recoil: 4
+Run Penalty: 2              Reload Time: 2s
+Mag Capacity: 30          Ammo: 5.45x39mm
+Fire Rate: 600 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- AKM-->
+<text>
+	<id>236</id>
+	<name>A firearm derived from a legendary weapon.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 30-50             Spread: 5
+Aim Speed: 1.5             Recoil: 5
+Run Penalty: 2              Reload Time: 2s
+Mag Capacity: 30          Ammo: 7.62x39mm
+Fire Rate: 460 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- AK-74u-->
+<text>
+	<id>237</id>
+	<name>One of the standard issue weapons of the Russian Army.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 26-44             Spread: 8
+Aim Speed: 2               Recoil: 4
+Run Penalty: 1              Reload Time: 2s
+Mag Capacity: 30          Ammo: 5.45x39mm
+Fire Rate: 750 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- SKS-->
+<text>
+	<id>238</id>
+	<name>A reliable weapon manufactured in the Soviet Union.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 34-56             Spread: 4
+Aim Speed: 1.5             Recoil: 10
+Run Penalty: 4              Reload Time: 2s
+Mag Capacity: 10          Ammo: 7.62x39mm
+Fire Rate: 200 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- L85-->
+<text>
+	<id>240</id>
+	<name>One of the main weapons of the British military.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 22-38             Spread: 3
+Aim Speed: 1.5             Recoil: 3
+Run Penalty: 3              Reload Time: 2s
+Mag Capacity: 30          Ammo: 5.56x45mm
+Fire Rate: 500 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Remington-->
+<text>
+	<id>241</id>
+	<name>A popular weapon favored by American civilians.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 22-188           Spread: 15
+Aim Speed: 1               Recoil: 20
+Run Penalty: 2              Reload Time: 3s
+Mag Capacity: 6           Ammo: 12 Gauge
+Fire Rate: 66 RPM         Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Bow-->
+<text>
+	<id>243</id>
+	<name>A weapon from thousands of years ago, still in use today.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 37-94             Spread: 6
+Aim Speed: 2               Run Penalty: 3
+Ammo: Handmade Arrow / Composite Arrow
+Mag Capacity: 1            Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- CrossBow-->
+<text>
+	<id>244</id>
+	<name>A crossbow, terrifyingly effective.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 37-94             Spread: 3
+Aim Speed: 2               Run Penalty: 3
+Ammo: Handmade Arrow / Composite Arrow
+Mag Capacity: 1            Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Sporter-->
+<text>
+	<id>246</id>
+	<name>A small-caliber rifle.
+Integrated Suppressor
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 15-25             Spread: 4
+Aim Speed: 2               Recoil: 8
+Run Penalty: 3              Reload Time: 2s
+Mag Capacity: 30          Ammo: .22 LR
+Fire Rate: 300 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Repeater-->
+<text>
+	<id>247</id>
+	<name>A military weapon used by the British in the late 19th century.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 30-50             Spread: 5
+Aim Speed: 2               Recoil: 10
+Run Penalty: 3              Reload Time: 2s
+Mag Capacity: 7           Ammo: .357
+Fire Rate: 85 RPM         Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- SVD-->
+<text>
+	<id>248</id>
+	<name>A Soviet sniper rifle that replaced the Mosin-Nagant.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 71-119           Spread: 3
+Aim Speed: 1               Recoil: 13
+Run Penalty: 5              Reload Time: 2s
+Mag Capacity: 10          Ammo: 7.62x54mmR
+Fire Rate: 150 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- MP5k-->
+<text>
+	<id>249</id>
+	<name>An ultra-compact submachine gun made in Germany.
+Integrated Grip
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 21-35             Spread: 10
+Aim Speed: 2               Recoil: 1
+Run Penalty: 0              Reload Time: 2s
+Mag Capacity: 30          Ammo: 9mm
+Fire Rate: 850 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- UMP-->
+<text>
+	<id>251</id>
+	<name>A personal defense weapon used by US special forces.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 21-35             Spread: 9
+Aim Speed: 2               Recoil: 2
+Run Penalty: 0              Reload Time: 2s
+Mag Capacity: 30          Ammo: .45 ACP
+Fire Rate: 650 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- RPK-->
+<text>
+	<id>252</id>
+	<name>A light machine gun derived from the AKM.
+Integrated Bipod: Significantly reduces recoil after standing still.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 30-50             Spread: 5
+Aim Speed: 1.5             Recoil: 6
+Run Penalty: 2              Reload Time: 3s
+Mag Capacity: 40          Ammo: 7.62x39mm
+Fire Rate: 600 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- FN-FAL-->
+<text>
+	<id>253</id>
+	<name>A battle rifle developed in Belgium.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 54-90             Spread: 4
+Aim Speed: 1.5             Recoil: 6
+Run Penalty: 2              Reload Time: 2s
+Mag Capacity: 20          Ammo: .308
+Fire Rate: 600 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Saiga-12k-->
+<text>
+	<id>254</id>
+	<name>A semi-automatic combat shotgun made in Russia.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 22-188           Spread: 17
+Aim Speed: 1               Recoil: 19
+Run Penalty: 2              Reload Time: 2s
+Mag Capacity: 8           Ammo: 12 Gauge
+Fire Rate: 200 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- AUG-->
+<text>
+	<id>255</id>
+	<name>The first mass-produced bullpup rifle with a modular design.
+Integrated Scope and Grip: Headshot Chance +15%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 25-41             Spread: 3
+Aim Speed: 1.5             Recoil: 1.5
+Run Penalty: 2.5           Reload Time: 2s
+Mag Capacity: 30          Ammo: 5.56x45mm
+Fire Rate: 650 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Bizon-->
+<text>
+	<id>256</id>
+	<name>A uniquely designed submachine gun made in Russia.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 18-30             Spread: 8
+Aim Speed: 2               Recoil: 3
+Run Penalty: 0              Reload Time: 3s
+Mag Capacity: 64          Ammo: 9x18mm
+Fire Rate: 550 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Groza-->
+<text>
+	<id>257</id>
+	<name>Russian assault rifle with an integrated grenade launcher system.
+Integrated GP-25 Grenade Launcher
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 30-50             Spread: 5
+Aim Speed: 1.5             Recoil: 3
+Run Penalty: 3              Reload Time: 2s
+Mag Capacity: 30          Ammo: 9x39mm
+Fire Rate: 600 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- VSS-->
+<text>
+	<id>258</id>
+	<name>A silenced sniper rifle manufactured in the Soviet Union.
+Integrated Suppressor
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 37-62             Spread: 2
+Aim Speed: 1.5             Recoil: 4
+Run Penalty: 2              Reload Time: 2s
+Mag Capacity: 20          Ammo: 9x39mm
+Fire Rate: 600 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- SV-98-->
+<text>
+	<id>259</id>
+	<name>A sniper rifle optimized from the SVD platform.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 86-144           Spread: 3
+Aim Speed: 1.5             Recoil: 9
+Run Penalty: 5              Reload Time: 3s
+Mag Capacity: 10          Ammo: 7.62x54mmR
+Fire Rate: 66 RPM         Wear per Shot: 0.2%
++10% Headshot chance at precise aim
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Madsen-->
+<text>
+	<id>260</id>
+	<name>The world's first true LMG, adopted by the Royal Danish Army in 1902.
+Integrated Bipod: Significantly reduces recoil after standing still.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 52-87             Spread: 6
+Aim Speed: 1.5             Recoil: 6
+Run Penalty: 2              Reload Time: 3s
+Mag Capacity: 30          Ammo: 7.62x54mmR
+Fire Rate: 500 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- AN-94-->
+<text>
+	<id>261</id>
+	<name>A complex Russian-made assault rifle, its most distinctive feature is the "hyper burst" firing 2 shots at the same time.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 28-46             Spread: 4
+Aim Speed: 1.5             Recoil: 3
+Run Penalty: 2              Reload Time: 2s
+Mag Capacity: 30          Ammo: 5.45x39mm
+Fire Rate: 1800 RPM       Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Silenced Remington-->
+<text>
+	<id>262</id>
+	<name>"When you try to reclaim what you've lost, you might lose even more..."
+Integrated Suppressor
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 22-188           Spread: 15
+Aim Speed: 1.5             Recoil: 20
+Run Penalty: 2              Reload Time: 3s
+Mag Capacity: 6           Ammo: 12 Gauge
+Fire Rate: 66 RPM         Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- M16A2-->
+<text>
+	<id>263</id>
+	<name>One of the rifles in the US standard-issue M16 series.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 22-38             Spread: 4
+Aim Speed: 1.5             Recoil: 3
+Run Penalty: 3              Reload Time: 2s
+Mag Capacity: 30          Ammo: 5.56x45mm
+Fire Rate: 800 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Vector-->
+<text>
+	<id>264</id>
+	<name>Exceptional stability and a blistering fire rate make this weapon terrifying.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 21-35             Spread: 10
+Aim Speed: 2               Recoil: 2
+Run Penalty: 0              Reload Time: 2s
+Mag Capacity: 30          Ammo: .45 ACP
+Fire Rate: 1200 RPM       Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- M4 w/ Drum-->
+<text>
+	<id>265</id>
+	<name>A reliable rifle used by the US military. Currently fitted with a C-Mag Drum.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 22-38             Spread: 4
+Aim Speed: 1.5             Recoil: 3
+Run Penalty: 2              Reload Time: 3s
+Mag Capacity: 100         Ammo: 5.56x45mm
+Fire Rate: 600 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- AKM w/ Drum-->
+<text>
+	<id>266</id>
+	<name>A firearm derived from a legendary weapon. Currently fitted with a Drum Mag.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 30-50             Spread: 5
+Aim Speed: 1.5             Recoil: 5
+Run Penalty: 2              Reload Time: 3s
+Mag Capacity: 75          Ammo: 7.62x39mm
+Fire Rate: 460 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- M70-->
+<text>
+	<id>267</id>
+	<name>The Winchester Model 70 is a bolt-action target rifle extensively used in the Vietnam war.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 79-131           Spread: 3
+Aim Speed: 1               Recoil: 20
+Run Penalty: 5              Reload Time: 3s
+Mag Capacity: 5           Ammo: .308
+Fire Rate: 46 RPM         Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Saiga-12k w/ Drum-->
+<text>
+	<id>268</id>
+	<name>A semi-automatic combat shotgun made in Russia. Currently fitted with a Drum Mag.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 22-188           Spread: 17
+Aim Speed: 1               Recoil: 19
+Run Penalty: 2              Reload Time: 3s
+Mag Capacity: 20          Ammo: 12 Gauge
+Fire Rate: 200 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- RPK w/ Drum-->
+<text>
+	<id>269</id>
+	<name>A light machine gun derived from the AKM. Currently fitted with a Drum Mag.
+Integrated Bipod: Significantly reduces recoil after standing still.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 30-50             Spread: 5
+Aim Speed: 1.5             Recoil: 6
+Run Penalty: 2              Reload Time: 3s
+Mag Capacity: 75          Ammo: 7.62x39mm
+Fire Rate: 600 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- M16A2 w/ Drum-->
+<text>
+	<id>270</id>
+	<name>One of the rifles in the US standard-issue M16 series. Currently fitted with a C-Mag Drum.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 22-38             Spread: 4
+Aim Speed: 1.5             Recoil: 3
+Run Penalty: 3              Reload Time: 3s
+Mag Capacity: 100         Ammo: 5.56x45mm
+Fire Rate: 800 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- AUG w/ Drum-->
+<text>
+	<id>271</id>
+	<name>The first mass-produced bullpup rifle with a modular design. Currently fitted with a C-Mag Drum.
+Integrated Scope and Grip: Headshot Chance +15%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 25-41             Spread: 3
+Aim Speed: 1.5             Recoil: 1.5
+Run Penalty: 2.5           Reload Time: 3s
+Mag Capacity: 100         Ammo: 5.56x45mm
+Fire Rate: 650 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- MGL-->
+<text>
+	<id>272</id>
+	<name>A lightweight 40mm six-shot revolver grenade launcher.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 45-540           Spread: 5
+Aim Speed: 1.5             Recoil: 4
+Run Penalty: 2.5           Reload Time: 4s
+Mag Capacity: 6           Ammo: 40mm Grenade
+Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Blaze-->
+<text>
+	<id>273</id>
+	<name>A break-action hunting rifle, favored for its unique ability to fire two rounds almost instantly.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 71-119           Spread: 5
+Aim Speed: 1.5             Recoil: 6
+Run Penalty: 3              Reload Time: 2s
+Mag Capacity: 2           Ammo: .308
+Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- FAMAS-->
+<text>
+	<id>274</id>
+	<name>A bullpup assault rifle designed for compactness and a high fire rate.
+Integrated Bipod: Significantly reduces recoil after standing still.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 25-41             Spread: 4
+Aim Speed: 1.5             Recoil: 3
+Run Penalty: 2              Reload Time: 2s
+Mag Capacity: 25          Ammo: 5.56x45mm
+Fire Rate: 900 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Mini-14-->
+<text>
+	<id>275</id>
+	<name>The Ruger Mini-14 is a lightweight, semi-automatic rifle, valued for its classic design, reliability, and versatility.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 27-45             Spread: 4
+Aim Speed: 1.5             Recoil: 3
+Run Penalty: 2              Reload Time: 2s
+Mag Capacity: 20          Ammo: 5.56x45mm
+Fire Rate: 300 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- AK-74 w/ Drum-->
+<text>
+	<id>276</id>
+	<name>A Soviet-made rifle built for harsh environments. Currently fitted with a C-Mag Drum.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 26-44             Spread: 5
+Aim Speed: 1.5             Recoil: 4
+Run Penalty: 2              Reload Time: 3s
+Mag Capacity: 95          Ammo: 5.45x39mm
+Fire Rate: 600 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- AK-74u w/ Drum-->
+<text>
+	<id>277</id>
+	<name>One of the standard issue weapons of the Russian Army. Currently fitted with a C-Mag Drum.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 26-44             Spread: 8
+Aim Speed: 2               Recoil: 4
+Run Penalty: 1              Reload Time: 3s
+Mag Capacity: 95          Ammo: 5.45x39mm
+Fire Rate: 750 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- AS-VAL-->
+<text>
+	<id>278</id>
+	<name>A derivative of the VSS, featuring a Picatinny rail on the receiver.
+Integrated Suppressor
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 37-62             Spread: 3
+Aim Speed: 1.5             Recoil: 4
+Run Penalty: 2              Reload Time: 2s
+Mag Capacity: 30          Ammo: 9x39mm
+Fire Rate: 800 RPM        Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- M249-->
+<text>
+	<id>279</id>
+	<name>An American light machine gun, using 100-round belt-fed ammunition boxes. Highly reliable and offers tremendous firepower.
+Integrated Bipod: Significantly reduces recoil after standing still.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 25-41             Spread: 5
+Aim Speed: 1.5             Recoil: 4
+Run Penalty: 3              Reload Time: 4s
+Mag Capacity: 100         Ammo: 5.56x45mm
+Fire Rate: 1000 RPM       Wear per Shot: 0.2%
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Backpacks -->
+<!-- Taloon-->
+<text>
+	<id>301</id>
+	<name>A lightweight backpack used for all-day trips. Comfortably supports any load that fits in.
+
+Carry Capacity: +5
+Can store spare top-wear and pants
+</name>
+</text>
+
+<text>
+	<id>302</id>
+	<name>A tall mountaineering backpack made from hi-tech materials. Spacious but very noticeable.
+
+Carry Capacity: +11
+Can store spare top-wear and pants
+</name>
+</text>
+
+<text>
+	<id>303</id>
+	<name>A standard hunting backpack with closable pockets. Very durable and comfortable, if a little old-fashioned.
+
+Carry Capacity: +7
+Can store spare top-wear and pants
+</name>
+</text>
+
+<text>
+	<id>304</id>
+	<name>A child's backpack. Not very practical in terms of carrying space, but helps keep a low profile.
+
+Carry Capacity: +3
+</name>
+</text>
+
+<text>
+	<id>305</id>
+	<name>A small, low-profile bag suspended by one strap over the shoulder. This bag won't fit that much inside, but it's very discreet and won't be noticed as easily.
+
+Carry Capacity: +4
+Can store spare top-wear and pants
+</name>
+</text>
+
+<text>
+	<id>306</id>
+	<name>A low-profile burlap backpack with a wooden frame. Not too rigid, but very practical.
+
+Carry Capacity: +6
+Can store spare top-wear and pants
+</name>
+</text>
+
+<text>
+	<id>307</id>
+	<name>A civilian camping tent combo with a backpack. Offers a comfortable and dry space when deployed, with additional storage space for your loot.
+
+Can be placed on the ground
+Items stored inside will never disappear
+Carry Capacity: +3
+Can store spare top-wear and pants
+Can be deployed on the ground as a civilian tent to store items
+</name>
+</text>
+
+<text>
+	<id>308</id>
+	<name>A comfortable military backpack for prolonged carrying. Hits the sweet spot in carrying a lot more gear while still being minimal in size.
+
+Carry Capacity: +9
+Can store spare top-wear and pants
+</name>
+</text>
+
+<text>
+	<id>309</id>
+	<name>A handy fanny pack used to carry small items. The material isn't very durable, but it will do the job.
+
+Carry Capacity: +2
+</name>
+</text>
+
+<text>
+	<id>310</id>
+	<name>A small army-grade shoulder bag used to store small EDC survival items and tools.
+
+Carry Capacity: +1
+Utility Slots: +3
+Can store knives, matches, lighters, flares, canteens
+Can be worn on the chest, along with a backpack
+</name>
+</text>
+
+<text>
+	<id>311</id>
+	<name>A medical-grade IFAK shoulder bag, designed to store medicine in a protected manner against contaminants.
+
+Carry Capacity: +1
+Medical Slots: +3
+Can store any medical supplies, any medicine
+Can be worn on the chest, along with a backpack
+</name>
+</text>
+
+<text>
+	<id>312</id>
+	<name>A touch of the Devs' magic to give your items the ability to dimension jump!
+
+Carry Capacity: +6
+Items stored inside can be carried over to the next game
+</name>
+</text>
+
+<!-- Pants -->
+<!-- Jeans-->
+<text>
+	<id>351</id>
+	<name>Denim trousers, also known as jeans. Omnipresent casual modern clothing, these are your average pants.
+
+Carry Capacity: +2
+Heat: +5
+</name>
+</text>
+
+<!-- Worker-->
+<text>
+	<id>352</id>
+	<name>Loosely cut pants suitable for tough work in the outdoors. Distinguishable by pockets on legs.
+
+Carry Capacity: +3
+Heat: +5
+</name>
+</text>
+
+<!-- Sport-->
+<text>
+	<id>353</id>
+	<name>Casual pants, designed for comfort and athletic purposes. They have become one of the most commonly worn items of clothing in the world.
+
+Carry Capacity: +1
+Heat: +3
+</name>
+</text>
+
+<!-- Gorka-->
+<text>
+	<id>354</id>
+	<name>Tactical pants used by the unit stationed at Gorka. They offer quick access to large cargo pockets, armor, and decent protection from the elements.
+
+Carry Capacity: +3
+Heat: +8
+Defense: +2
+Melee Block Chance: +10%
+</name>
+</text>
+
+<!-- Medic-->
+<text>
+	<id>355</id>
+	<name>Standard issue paramedic pants. Not that different from any other work apparel, except for the bright, reflective stripes.
+
+Carry Capacity: +2
+Heat: +4
+</name>
+</text>
+
+<!-- Orel-->
+<text>
+	<id>356</id>
+	<name>Uniform pants of the OREL special police force unit. Somewhat warm and comfortable with little protection.
+
+Carry Capacity: +2
+Heat: +5
+Defense: +1
+</name>
+</text>
+
+<!-- Hunter-->
+<text>
+	<id>357</id>
+	<name>Durable pants, designed for prolonged periods of time spent outdoors. The camo pattern makes for an ideal hunting outfit in the right environment.
+
+Carry Capacity: +3
+Heat: +6
+Defense: +1
+Melee Block Chance: +5%
+</name>
+</text>
+
+<!-- Firefighter Pants-->
+<text>
+	<id>358</id>
+	<name>Flame-resistant pants designed for firefighters. Offers protection against high temperatures.
+
+Carry Capacity: +2
+Heat: +5
+Defense: +1
+Melee Block Chance: +5%
+Provides fire protection (requires Firefighter Jacket to be equipped simultaneously)
+</name>
+</text>
+
+<!-- Vests -->
+<!-- Bulletproof-->
+<text>
+	<id>401</id>
+	<name>A fabric shell covered over a ballistic armor plate. Good cover protection for the front of the torso.
+
+Defense: +8
+Melee Block Chance: +10%
+</name>
+</text>
+
+<!-- assault-->
+<text>
+	<id>402</id>
+	<name>A tactical vest designed for combat, which prioritizes carrying gear and ammunition. Offers limited protection from soft padding.
+
+Carry Capacity: +2
+Defense: +3
+Melee Block Chance: +5%
+Can attach grenades and smoke grenades, up to 3
+</name>
+</text>
+
+<!-- press-->
+<text>
+	<id>403</id>
+	<name>A ballistic press vest able to absorb various types of impact damage. Used by various security organizations around the world.
+
+Carry Capacity: +1
+Defense: +6
+Melee Block Chance: +5%
+</name>
+</text>
+
+<!-- High Capacity-->
+<text>
+	<id>404</id>
+	<name>A tactical vest designed to hold as much gear as possible while maintaining full mobility. Offers limited protection from soft padding.
+
+Carry Capacity: +3
+Defense: +3
+Melee Block Chance: +5%
+Can attach grenades and smoke grenades, up to 3
+</name>
+</text>
+
+<!-- Kevlar-->
+<text>
+	<id>405</id>
+	<name>A type of hard body armor made from the strong, synthetic material Kevlar. Highly effective at stopping rounds while maintaining a balance between mobility and carry capacity.
+
+Carry Capacity: +3
+Defense: +10
+Melee Block Chance: +10%
+Can attach grenades and smoke grenades, up to 3
+</name>
+</text>
+
+<!-- Soviet-->
+<text>
+	<id>406</id>
+	<name>Soviet forces edition. A dedicated tactical vest that offers greater protection to the lower abdomen due to an elongated chest section.
+
+Carry Capacity: +2
+Defense: +8
+Melee Block Chance: +10%
+</name>
+</text>
+
+<!-- Apron-->
+<text>
+	<id>407</id>
+	<name>A versatile garment worn over clothes to protect the wearer's body and clothing from substances like dirt, guts, grease, and chemicals.
+
+Carry Capacity: +1
+</name>
+</text>
+
+<!-- Ghillie Suit (Vest)-->
+<text>
+	<id>408</id>
+	<name>A camouflage suit used to completely conceal the wearer in a natural environment.
+
+Activates when durability is above 50%. Grants invisibility when standing still for a short time.
+Moving or attacking breaks invisibility. Invisible targets cannot be seen.
+</name>
+</text>
+
+<!-- M Heavy Armor-->
+<text>
+	<id>409</id>
+	<name>Top-grade military armor coated with a layer of experimental compound called "Complex M". Stops rounds like its nothing.
+
+Defense: +20
+Melee Block Chance: +15%
+</name>
+</text>
+
+<!-- Class A Protective Suit-->
+<text>
+	<id>410</id>
+	<name>An airtight Class A Protective Suit.
+
+Effect activates when durability is above 50%. Full protection requires gloves and boots.
+Rainproof, Radiation-proof, Biohazard-proof (requires full protection).
+Can be sealed to block contaminated air for 2 minutes (requires full protection).
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- Thermal Protective Suit-->
+<text>
+	<id>411</id>
+	<name>A kevlar vest layered on top of a CBRN suit.
+
+Carry Capacity: +3
+Defense: +10
+Melee Block Chance: +10%
+Can attach grenades and smoke grenades, up to 3
+Contains the properties of a CBRN suit
+</name>
+</text>
+
+<!-- Military M Heavy Suit-->
+<text>
+	<id>412</id>
+	<name>An M heavy armor layered on top of a CBRN suit.
+
+Defense: +20
+Melee Block Chance: +15%
+Contains the properties of a CBRN suit
+</name>
+</text>
+
+<!-- Military Ghillie Suit-->
+<text>
+	<id>413</id>
+	<name>A ghillie suit layered on top of a CBRN suit.
+
+Activates when durability is above 50%. Grants invisibility when standing still for a short time.
+Moving or attacking breaks invisibility.
+Contains the properties of a CBRN suit
+</name>
+</text>
+
+<!-- Class C Protective Suit-->
+<text>
+	<id>414</id>
+	<name>A basic protection Class C Protective Suit.
+
+Effect activates when durability is above 50%. Full protection requires gloves and boots.
+Rainproof, Biohazard-proof (requires full protection).
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- Class B Protective Suit-->
+<text>
+	<id>415</id>
+	<name>A radiation-proof Class B Protective Suit.
+
+Effect activates when durability is above 50%. Full protection requires gloves and boots.
+Rainproof, Radiation-proof, Biohazard-proof (requires full protection).
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- Class A Military Suit-->
+<text>
+	<id>416</id>
+	<name>A military-grade protective suit, allows attachment of Ghillie suit, Kevlar vest, and M Heavy Armor.
+
+Effect activates when durability is above 50%. Full protection requires gloves and boots.
+Rainproof, Radiation-proof, Biohazard-proof (requires full protection).
+Can be sealed to block contaminated air for 2 minutes (requires full protection).
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- Helmets -->
+<text>
+	<id>450</id>
+	<name>Click to remove the attached equipment
+</name>
+</text>
+
+<!-- Motorcycle Helmet-->
+<text>
+	<id>451</id>
+	<name>A protective helmet with a visor for motorcycle riders. The hard outer shell absorbs impacts with ease.
+
+Heat: +2
+Defense: +3
+Melee Block Chance: +10%
+</name>
+</text>
+
+<!-- Army Helmet-->
+<text>
+	<id>452</id>
+	<name>An army infantry helmet, a piece of ballistic headgear designed for protection against fragmentation, blunt impact, and some small firearms.
+
+Heat: +2
+Defense: +4
+Melee Block Chance: +5%
+Reduces headshot damage
+</name>
+</text>
+
+<!-- Hard Hat-->
+<text>
+	<id>453</id>
+	<name>A construction helmet used to protect the head from the impact of falling tools, debris, or any blunt force.
+
+Heat: +2
+Defense: +2
+Melee Block Chance: +5%
+</name>
+</text>
+
+<!-- Gas Mask-->
+<text>
+	<id>454</id>
+	<name>A form of personal protective equipment that protects the wearer from inhaling airborne pollutants and toxic gases.
+
+Heat: +2
+Provides immunity against toxic gas; durability decreases in contaminated areas
+Can be worn as a liner under other headgear
+</name>
+</text>
+
+<!-- Motorcycle Helmet 2-->
+<text>
+	<id>455</id>
+	<name>A protective helmet with a visor for motorcycle riders. The hard outer shell absorbs impacts with ease.
+
+Heat: +2
+Defense: +3
+Melee Block Chance: +10%
+</name>
+</text>
+
+<!-- Motorcycle Helmet 3-->
+<text>
+	<id>456</id>
+	<name>A protective helmet with a visor for motorcycle riders. The hard outer shell absorbs impacts with ease.
+
+Heat: +2
+Defense: +3
+Melee Block Chance: +10%
+</name>
+</text>
+
+<!-- Cap-->
+<text>
+	<id>457</id>
+	<name>A soft cap with a curved bill and rounded crown. It is effective at shielding the eyes from the sun.
+
+Heat: +2
+</name>
+</text>
+
+<!-- Warm Hat-->
+<text>
+	<id>458</id>
+	<name>A soft, close-fitting brimless beanie that is known for its versatility and warmth.
+
+Heat: +4
+</name>
+</text>
+
+<!-- Ushanka-->
+<text>
+	<id>459</id>
+	<name>A traditional Russian fur hat with ear flaps that can be tied in different positions to provide maximum protection from extreme cold.
+
+Heat: +6
+</name>
+</text>
+
+<!-- Beret-->
+<text>
+	<id>460</id>
+	<name>A beret with an insignia stitched on one side. It doesn't offer much protection, nor does it provide much thermal comfort.
+
+Heat: +2
+</name>
+</text>
+
+<!-- Balaclava-->
+<text>
+	<id>461</id>
+	<name>A close-fitting head covering that protects the head, face, and neck, leaving only the eyes or parts of the face exposed.
+
+Heat: +3
+Can be worn as a liner under other headgear
+</name>
+</text>
+
+<!-- Headlamp-->
+<text>
+	<id>462</id>
+	<name>A hands-free lighting device worn on the head with an adjustable strap.
+
+Heat: +1
+Requires a battery to operate
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- Cowboy Hat-->
+<text>
+	<id>463</id>
+	<name>A high-crowned, wide-brimmed cowboy hat. Associated with ranch workers, cowboys, and men with no names.
+
+Heat: +2
+</name>
+</text>
+
+<!-- Welding Mask-->
+<text>
+	<id>464</id>
+	<name>Protects the eyes, face, and neck from ultraviolet light, sparks, and heat while welding.
+
+Heat: +1
+Defense: +1
+</name>
+</text>
+
+<!-- Gorka Helmet-->
+<text>
+	<id>465</id>
+	<name>A rugged military helmet designed for harsh weather conditions.
+
+Heat: +3
+Defense: +5
+Melee Block Chance: +10%
+Reduces headshot damage
+</name>
+</text>
+
+<!-- Police Cap-->
+<text>
+	<id>466</id>
+	<name>A peaked police cap is worn as part of a police uniform.
+
+Heat: +2
+</name>
+</text>
+
+<!-- NVG-->
+<text>
+	<id>467</id>
+	<name>Battery-powered Night Vision Goggles for intensifying images in low-light environments. Comes with a headstrap.
+
+Heat: +1
+Requires a battery to operate
+Can be placed in inventory slots.
+</name>
+</text>
+
+<!-- Bandana-->
+<text>
+	<id>468</id>
+	<name>A piece of cloth worn around the head. Typically made of cotton or silk, bandanas are versatile and can be styled in many ways.
+
+Heat: +2
+Can be torn into rags
+</name>
+</text>
+
+<!-- Crusader Helmet-->
+<text>
+	<id>469</id>
+	<name>A full-face helm made of cold steel, designed to offer superior head protection during the brutal melee of medieval warfare.
+
+Heat: +4
+Defense: +5
+Melee Block Chance: +15%
+Reduces headshot damage
+</name>
+</text>
+
+<!-- Pilot Helmet-->
+<text>
+	<id>470</id>
+	<name>A helmet designed to provide protection to pilots, along with electronic wiring throughout to allow microphone communication. Comes with a protective visor.
+
+Heat: +3
+Defense: +2
+Melee Block Chance: +5%
+</name>
+</text>
+
+<!-- Altyn Helmet-->
+<text>
+	<id>471</id>
+	<name>A 4mm thick layer of stamped titanium shell helmet equipped with a face shield. Stops rounds like its nothing.
+
+Heat: +3
+Defense: +7
+Melee Block Chance: +10%
+Reduces headshot damage
+</name>
+</text>
+
+<!-- "Killa" Altyn Helmet-->
+<text>
+	<id>472</id>
+	<name>A 4mm thick layer of stamped titanium shell helmet equipped with a face shield. Stops rounds like its nothing. It's also spray-painted to resemble a "Killa Helmet".
+
+Heat: +3
+Defense: +7
+Melee Block Chance: +10%
+Reduces headshot damage
+</name>
+</text>
+
+<!-- GP-5 Gas Mask-->
+<text>
+	<id>473</id>
+	<name>A full-face Soviet gas mask with a frontal mount for filter cartridges. Used to protect from airborne pollutants and contaminated air.
+
+Heat: +2
+Provides immunity against toxic gas; has more durability but wears constantly in contaminated areas
+Can be worn as a liner under other headgear
+</name>
+</text>
+
+<!-- Clown Mask-->
+<text>
+	<id>474</id>
+	<name>The headgear of choice for the clowning around, degenerate island thugs.
+
+Heat: +1
+Can be worn as a liner under other headgear
+</name>
+</text>
+
+<!-- Assault Helmet-->
+<text>
+	<id>475</id>
+	<name>A ballistic helmet with rails for accessories and an NVG shroud. Designed to meet combat applications in the dark while protecting the head.
+
+Heat: +3
+Defense: +3
+Melee Block Chance: +5%
+Reduces headshot damage
+Can mount night vision and flashlight attachments
+</name>
+</text>
+
+<!-- Assault Helmet-->
+<text>
+	<id>476</id>
+	<name>A ballistic helmet with rails for accessories and an NVG shroud. Designed to meet combat applications in the dark while protecting the head.
+
+Heat: +3
+Defense: +3
+Melee Block Chance: +5%
+Reduces headshot damage
+Can mount night vision and flashlight attachments
+</name>
+</text>
+
+<!-- Assault Helmet-->
+<text>
+	<id>477</id>
+	<name>A ballistic helmet with rails for accessories and an NVG shroud. Designed to meet combat applications in the dark while protecting the head.
+
+Heat: +3
+Defense: +3
+Melee Block Chance: +5%
+Reduces headshot damage
+Can mount night vision and flashlight attachments
+</name>
+</text>
+
+<!-- Assault Helmet-->
+<text>
+	<id>478</id>
+	<name>A ballistic helmet with rails for accessories and an NVG shroud. Designed to meet combat applications in the dark while protecting the head.
+
+Heat: +3
+Defense: +3
+Melee Block Chance: +5%
+Reduces headshot damage
+Can mount night vision and flashlight attachments
+</name>
+</text>
+
+<!-- Outfits -->
+<!-- Hoodie-->
+<text>
+	<id>501</id>
+	<name>A hooded sweatshirt with a vertical zipper and two large pockets. Provides decent protection from the elements.
+
+Carry Capacity: +2
+Heat: +5
+</name>
+</text>
+
+<!-- Shirt-->
+<text>
+	<id>502</id>
+	<name>A common long-sleeved, button-up, cloth garment for the upper body made from polyester and cotton.
+
+Carry Capacity: +1
+Heat: +3
+Can be torn into rags
+</name>
+</text>
+
+<!-- Hoodie-->
+<text>
+	<id>504</id>
+	<name>A hooded sweatshirt with a vertical zipper and two large pockets. Provides decent protection from the elements.
+
+Carry Capacity: +2
+Heat: +5
+</name>
+</text>
+
+<!-- Raincoat-->
+<text>
+	<id>505</id>
+	<name>A jacket made from water-resistant fabric with an extended collar and hood. Helps protect the upper body from rain.
+
+Carry Capacity: +2
+Heat: +6
+Rainproof, unaffected by rain
+</name>
+</text>
+
+<!-- Raincoat-->
+<text>
+	<id>506</id>
+	<name>A jacket made from water-resistant fabric with an extended collar and hood. Helps protect the upper body from rain.
+
+Carry Capacity: +2
+Heat: +6
+Rainproof, unaffected by rain
+</name>
+</text>
+
+<!-- Raider Jacket-->
+<text>
+	<id>507</id>
+	<name>A classic motorcycle leather jacket. Rugged, durable, and protective. Not to mention badass.
+
+Carry Capacity: +2
+Heat: +4
+Defense: +2
+Melee Block Chance: +5%
+</name>
+</text>
+
+<!-- Fur Coat-->
+<text>
+	<id>509</id>
+	<name>A long, loose fur coat with a belt, usually made from insulated material and similar in style to a military coat.
+
+Carry Capacity: +1
+Heat: +9
+</name>
+</text>
+
+<!-- Gorka Jacket-->
+<text>
+	<id>510</id>
+	<name>A tactical jacket used by the unit stationed at Gorka. Offers quick access to large cargo pockets, armor, and decent protection from the elements.
+
+Carry Capacity: +3
+Heat: +8
+Defense: +2
+Melee Block Chance: +10%
+</name>
+</text>
+
+<!-- T-Shirt-->
+<text>
+	<id>511</id>
+	<name>A short-sleeve T-shirt with a round neckline and a regular fit. Nothing special.
+
+Can be torn into rags
+</name>
+</text>
+
+<!-- Paramedic Jacket-->
+<text>
+	<id>512</id>
+	<name>A standard issue paramedic jacket. Not that different from any other work apparel, except for the bright, reflective stripes.
+
+Carry Capacity: +2
+Heat: +5
+</name>
+</text>
+
+<!-- Orel Jacket-->
+<text>
+	<id>513</id>
+	<name>The uniform jacket of the OREL special police force unit. Somewhat warm, comfortable, and armored.
+
+Carry Capacity: +2
+Heat: +5
+Defense: +1
+</name>
+</text>
+
+<!-- Tracksuit Jacket-->
+<text>
+	<id>514</id>
+	<name>A casual jacket, designed for comfort and athletic purposes. It has become one of the most commonly worn items of clothing in the world.
+
+Carry Capacity: +1
+Heat: +4
+</name>
+</text>
+
+<!-- Dress-->
+<text>
+	<id>515</id>
+	<name>A comfortable women's dress. Will keep you looking pretty in any situation.
+
+Carry Capacity: +1
+Heat: +4
+</name>
+</text>
+
+<!-- Down Jacket-->
+<text>
+	<id>516</id>
+	<name>A highly compressible puffer jacket filled with soft, warm under-feathers from ducks or geese. Feels cozy.
+
+Carry Capacity: +2
+Heat: +8
+</name>
+</text>
+
+<!-- Hunter Jacket-->
+<text>
+	<id>517</id>
+	<name>A durable jacket, designed for prolonged periods of time spent outdoors. The camo pattern makes for an ideal hunting outfit in the right environment.
+
+Carry Capacity: +3
+Heat: +6
+Defense: +1
+Melee Block Chance: +5%
+</name>
+</text>
+
+<!-- Sweater-->
+<text>
+	<id>518</id>
+	<name>A thick long-sleeved wool sweater. It is very warm, very absorbent, and itchy as hell.
+
+Carry Capacity: +1
+Heat: +6
+</name>
+</text>
+
+<!-- Awesome Hoodie-->
+<text>
+	<id>519</id>
+	<name>The legendary hoodie of the man, the myth, the legend... Cannedbits AKA Michael Azovsky.
+
+Carry Capacity: +3
+Heat: +8
+</name>
+</text>
+
+<!-- Firefighter Jacket-->
+<text>
+	<id>520</id>
+	<name>A flame-resistant jacket designed for firefighters. Offers protection against high temperatures.
+
+Carry Capacity: +2
+Heat: +5
+Defense: +1
+Melee Block Chance: +5%
+Provides fire protection (requires Firefighter Pants to be equipped simultaneously)
+</name>
+</text>
+
+<!-- Melee -->
+<!-- Hands-->
+<text>
+	<id>550</id>
+	<name>When empty-handed, click to retrieve placed bear traps, wire fences, claymores, item stashes, generators, and searchlights.
+</name>
+</text>
+
+<!-- Hatchet-->
+<text>
+	<id>551</id>
+	<name>A single-handed bladed tool with a hammer head on one side. It's the tool for any outdoorsman.
+
+Damage: 38-63
+Crit Chance: 25%
+Block Chance: 25%
+Attack Speed: 1.5s
+Can chop trees
+</name>
+</text>
+
+<!-- Shovel-->
+<text>
+	<id>552</id>
+	<name>An ordinary shovel. The strong, steel blade easily splits both soil and skulls.
+
+Damage: 19-31
+Crit Chance: 15%
+Block Chance: 35%
+Attack Speed: 1.6s
+Can be used as a farming tool
+Can bury survivor bodies
+</name>
+</text>
+
+<!-- Pipe Wrench-->
+<text>
+	<id>553</id>
+	<name>An adjustable wrench. Once used for turning nuts or bolts, now it makes a decent blunt weapon.
+
+Damage: 23-38
+Crit Chance: 25%
+Block Chance: 15%
+Attack Speed: 1.3s
+Can dismantle structures and salvage metal plates
+</name>
+</text>
+
+<!-- Baseball Bat-->
+<text>
+	<id>554</id>
+	<name>A wooden baseball bat made for hitting baseballs... or for making an iconic zombie apocalypse weapon for knocking skulls in.
+
+Damage: 26-44
+Crit Chance: 25%
+Block Chance: 15%
+Attack Speed: 1s
+Can be crafted: Barbed Wire Baseball Bat (requires Barbed Wire)
+</name>
+</text>
+
+<!-- Fire Axe-->
+<text>
+	<id>555</id>
+	<name>A firefighter's axe, used primarily for breaking down doors and windows. It's the answer, if the question is a town full of zombies.
+
+Damage: 45-75
+Crit Chance: 25%
+Block Chance: 25%
+Attack Speed: 1.6s
+Can chop trees
+Can dismantle structures and salvage metal plates
+</name>
+</text>
+
+<!-- Crowbar-->
+<text>
+	<id>556</id>
+	<name>A durable, multi-purpose melee weapon and tool for prying open doors and crates.
+
+Damage: 19-31
+Crit Chance: 25%
+Block Chance: 15%
+Attack Speed: 1.2s
+Can dismantle structures and salvage metal plates
+</name>
+</text>
+
+<!-- Kitchen Knife-->
+<text>
+	<id>557</id>
+	<name>A standard kitchen knife, sharp enough for most tasks.
+
+Damage: 14-24
+Crit Chance: 10%
+Block Chance: 5%
+Attack Speed: 0.8s
+</name>
+</text>
+
+<!-- Hunting Knife-->
+<text>
+	<id>558</id>
+	<name>The hunting knife is a specialized tool designed with a slightly curved tip, primarily for field dressing game.
+
+Damage: 15-25
+Crit Chance: 15%
+Block Chance: 5%
+Attack Speed: 0.8s
+</name>
+</text>
+
+<!-- Army Knife-->
+<text>
+	<id>559</id>
+	<name>A sharp combat knife with a sturdy blade and handle. Great for self-defense, but it has other, more mundane uses as well.
+
+Damage: 16-26
+Crit Chance: 20%
+Block Chance: 5%
+Attack Speed: 0.8s
+</name>
+</text>
+
+<!-- Pickaxe-->
+<text>
+	<id>560</id>
+	<name>An iron pickaxe!...can mine diamonds!...oops, wrong game.
+
+Damage: 33-55
+Crit Chance: 15%
+Block Chance: 35%
+Attack Speed: 1.3s
+Can be used as a farming tool
+</name>
+</text>
+
+<!-- Pitchfork-->
+<text>
+	<id>561</id>
+	<name>An agricultural tool composed of a long handle and thick prongs at one end, used to lift and pitch hay, straw, or leaves, but quite capable of piercing through flesh too.
+
+Damage: 30-50
+Crit Chance: 15%
+Block Chance: 35%
+Attack Speed: 1.2s
+Can be used as a farming tool
+</name>
+</text>
+
+<!-- Sledgehammer-->
+<text>
+	<id>562</id>
+	<name>A flat metal head can do damage to a devastating degree, due to its large size. Certainly useful for various demolition purposes.
+
+Damage: 41-69
+Crit Chance: 40%
+Block Chance: 15%
+Attack Speed: 1.8s
+Can dismantle structures and salvage metal plates
+</name>
+</text>
+
+<!-- Crusader Sword-->
+<text>
+	<id>563</id>
+	<name>In legends, a sword such as this is destined for a great hero. The wielder would be someone of pure heart, chosen by God to wield it against the forces of evil.
+
+Damage: 56-94
+Crit Chance: 35%
+Block Chance: 25%
+Attack Speed: 1.5s
+Can chop trees
+</name>
+</text>
+
+<!-- Frying Pan-->
+<text>
+	<id>564</id>
+	<name>A cast-iron pan purposely built for cooking up hate for your enemies.
+
+Damage: 25-41
+Crit Chance: 40%
+Block Chance: 35%
+Attack Speed: 0.9s
+Can Cook: Fried Egg (requires Egg + Campfire), Scrambled Eggs with Tomatoes (requires Egg + Tomato + Campfire), Pepper Steak (requires Raw Steak/Raw Rabbit/Raw Chicken + Bell Pepper + Campfire)
+</name>
+</text>
+
+<!-- Katana-->
+<text>
+	<id>565</id>
+	<name>A single-edged Japanese blade historically used by the samurai class in feudal Japan. Its elegant design is considered both a weapon and a work of art.
+
+Damage: 48-81
+Crit Chance: 35%
+Block Chance: 25%
+Attack Speed: 1.2s
+Can chop trees
+</name>
+</text>
+
+<!-- Barbed Wire Baseball Bat-->
+<text>
+	<id>566</id>
+	<name>A regular baseball bat wrapped in gnarly barbed wire.
+
+Damage: 38-63
+Crit Chance: 35%
+Block Chance: 20%
+Attack Speed: 1s
+</name>
+</text>
+
+<!-- Chainsaw-->
+<text>
+	<id>567</id>
+	<name>Texas, our Texas! So wonderful, so great!
+
+Damage: 0 (off) / 10 (on)
+Crit Chance: 0% (off) / 20% (on)
+Block Chance: 0% (off) / 40% (on)
+Attack Speed: 0.1s
+Can be fueled with gasoline; consumes fuel while active
+Can chop trees, dismantle structures, salvage metal plates (requires activation)
+</name>
+</text>
+
+<!-- Generator-->
+<text>
+	<id>568</id>
+	<name>A portable gasoline-powered generator. Provides enough electricity to power a small home for as long as the fuel lasts.
+
+A heavy generator, requires two hands to carry.
+Can be deployed and filled with gasoline
+Can be turned on for various electrical applications
+</name>
+</text>
+
+<!-- Metal Plate-->
+<text>
+	<id>569</id>
+	<name>Metal sheets scrapped from wrecks. Great if you need to do some serious building, otherwise not that useful.
+
+A large metal plate, requires two hands to carry.
+Can be crafted: Metal Fence (requires Wood), Reinforce Vehicle (requires Blowtorch + Vehicle)
+</name>
+</text>
+
+<!-- Secret location reveal-->
+<text>
+	<id>150</id>
+	<name>This is a secret location!</name>
+</text>
+
+<text>
+	<id>151</id>
+	<name>Call in airdrop!</name>
+</text>
+
+<text>
+	<id>152</id>
+	<name>Load</name>
+</text>
+
+<text>
+	<id>153</id>
+	<name>This vehicle doesn't have a mounted machine gun.</name>
+</text>
+
+<text>
+	<id>154</id>
+	<name>I can't do that here.</name>
+</text>
+
+<text>
+	<id>155</id>
+	<name>Please select a difficulty level.
+Some unlocks require completion on higher difficulties.
+</name>
+</text>
+
+<text>
+	<id>156</id>
+	<name>I need a weapon with a grenade launcher attached.</name>
+</text>
+
+<text>
+	<id>157</id>
+	<name>Ammo: </name>
+</text>
+
+<text>
+	<id>158</id>
+	<name>I can't do that while I'm sick.</name>
+</text>
+
+<text>
+	<id>159</id>
+	<name>I'm too weak... can't do that yet.</name>
+</text>
+
+<text>
+	<id>160</id>
+	<name>I'm bleeding!</name>
+</text>
+
+<text>
+	<id>161</id>
+	<name>Refuse</name>
+</text>
+
+<text>
+	<id>162</id>
+	<name>We have nothing left to say to each other.</name>
+</text>
+
+<!-- Bot phrases for commands-->
+<text>
+	<id>163</id>
+	<name>Alright! Let's go!</name>
+</text>
+
+<text>
+	<id>164</id>
+	<name>I'll watch this area!</name>
+</text>
+
+<!-- Phrases for sleeping-->
+<text>
+	<id>165</id>
+	<name>Enemies are nearby. I can't sleep now.</name>
+</text>
+
+<text>
+	<id>166</id>
+	<name>I'd better sleep at night.</name>
+</text>
+
+<text>
+	<id>167</id>
+	<name>You can sleep at night. If you are in good condition, you will wake up at 6:00 AM; if you are hungry or thirsty, you will wake up earlier.
+</name>
+</text>
+
+<text>
+	<id>168</id>
+	<name>Sleep</name>
+</text>
+
+<text>
+	<id>169</id>
+	<name>Conditions are suitable for sleeping.</name>
+</text>
+
+<text>
+	<id>170</id>
+	<name>It's too cold here. I can't sleep.</name>
+</text>
+
+<text>
+	<id>171</id>
+	<name>I'm so hungry.</name>
+</text>
+
+<text>
+	<id>172</id>
+	<name>I'm so thirsty.</name>
+</text>
+
+<text>
+	<id>173</id>
+	<name>I'm bleeding. I can't do this.</name>
+</text>
+
+<text>
+	<id>174</id>
+	<name>I need to sleep inside a house.</name>
+</text>
+
+<text>
+	<id>175</id>
+	<name>I'm not feeling well. I can't sleep.</name>
+</text>
+
+<text>
+	<id>176</id>
+	<name>I can't sleep during the day.</name>
+</text>
+
+<text>
+	<id>177</id>
+	<name>I can't sleep.</name>
+</text>
+
+<text>
+	<id>178</id>
+	<name>Legendary</name>
+</text>
+
+<text>
+	<id>179</id>
+	<name>Too close! You'll hit me!</name>
+</text>
+
+<!-- Characters -->
+<text>
+	<id>180</id>
+	<name>Xavier "The Pilot"
+Equipment: Gorka Pants, Sweater, Pilot Helmet, UMP-45, Flare
+Special Skills: Survivor (Level 2), Scouting</name>
+</text>
+
+<text>
+	<id>181</id>
+	<name>Xavier "The Pilot"
+Unlock Requirement: Find 13 military crash sites in one run
+On "Legendary" difficulty</name>
+</text>
+
+<text>
+	<id>182</id>
+	<name>Rudolf "The Hunter"
+Equipment: IZH-43, Ushanka, 12 Gauge Shells×10, Hunter Knife, Spinning Fishing Rod, Hunting Jacket, Hunting Pants
+Special Skills: Hunter (Level 2), Vigilance</name>
+</text>
+
+<text>
+	<id>183</id>
+	<name>Rudolf "The Hunter"
+Unlock Requirement: Find and kill 3 Albino Deer in one run
+On "Legendary" difficulty</name>
+</text>
+
+<text>
+	<id>184</id>
+	<name>Taman "The Guard"
+Equipment: Police Hat, Orel Jacket, Orel Pants, AKs-74u, Energy Drink
+Special Skills: Marksman (Level 2), Ammo Seeker</name>
+</text>
+
+<text>
+	<id>185</id>
+	<name>Taman "The Guard"
+Unlock Requirement: Kill a "Tank" using the Humvee's mounted machine gun
+On "Legendary" difficulty</name>
+</text>
+
+<text>
+	<id>186</id>
+	<name>Daria "The Scientist"
+Equipment: Work Pants, Apron, Shirt, Tetracycline, Empty Blood Bag, Vitamins, Morphine, Bandage×3
+Special Skills: Vitality (Level 2), Sprinter</name>
+</text>
+
+<text>
+	<id>187</id>
+	<name>Daria "The Scientist"
+Unlock Requirement: Reach the Fifth Island
+On "Legendary" difficulty</name>
+</text>
+
+<text>
+	<id>188</id>
+	<name>Sharpen (+25%)</name>
+</text>
+
+<text>
+	<id>189</id>
+	<name>Desert Eagle Pistol
+Unlock Requirement: Simultaneously wear a Cowboy Hat, a Shirt, and carry a Magnum Revolver
+On "Regular" difficulty or higher
+Current Progress:</name>
+</text>
+
+<text>
+	<id>190</id>
+	<name>Desert Eagle Pistol
+Unlocked
+Spawns in: Bunkers, Gun Stores</name>
+</text>
+
+<text>
+	<id>191</id>
+	<name>Katana
+Unlock Requirement: Kill 100 Infected with a Knife
+On "Legendary" difficulty
+Current Progress:</name>
+</text>
+
+<text>
+	<id>192</id>
+	<name>Katana
+Unlocked
+Spawns in: Gun Stores</name>
+</text>
+
+<text>
+	<id>193</id>
+	<name>The weapon is sharper now.</name>
+</text>
+
+<text>
+	<id>194</id>
+	<name>This weapon cannot be sharpened.</name>
+</text>
+
+<text>
+	<id>195</id>
+	<name>Craft Rope</name>
+</text>
+
+<text>
+	<id>196</id>
+	<name>I need 3 Rags to make it.</name>
+</text>
+
+<text>
+	<id>197</id>
+	<name>Follow me!</name>
+</text>
+
+<text>
+	<id>198</id>
+	<name>Patrol here!</name>
+</text>
+
+<text>
+	<id>199</id>
+	<name>Go away!</name>
+</text>
+
+<text>
+	<id>200</id>
+	<name>Hello, survivor!</name>
+</text>
+
+<text>
+	<id>201</id>
+	<name>I can't do that here.</name>
+</text>
+
+<text>
+	<id>202</id>
+	<name>There are enemies nearby!</name>
+</text>
+
+<text>
+	<id>203</id>
+	<name>I think I can jump the car across.</name>
+</text>
+
+<text>
+	<id>204</id>
+	<name>Are you sure you want to jump to the broken bridge?
+	You will not be able to return here. Many dangers await on the other side!</name>
+</text>
+
+<text>
+	<id>205</id>
+	<name>Hello!</name>
+</text>
+
+<text>
+	<id>206</id>
+	<name>Hey, survivor! Can you help us?</name>
+</text>
+
+<text>
+	<id>207</id>
+	<name>Don't shoot! We're friends.</name>
+</text>
+
+<text>
+	<id>208</id>
+	<name>Hi</name>
+</text>
+
+<text>
+	<id>209</id>
+	<name>Thanks!</name>
+</text>
+
+<text>
+	<id>210</id>
+	<name>Hey, survivor! We've heard about you!
+	You've helped a lot of people in need.
+	We want to help you.
+	Take this, and may God bless you.</name>
+</text>
+
+<text>
+	<id>611</id>
+	<name>I learned something from this!</name>
+</text>
+
+<text>
+	<id>612</id>
+	<name>Read</name>
+</text>
+
+<text>
+	<id>613</id>
+	<name>I feel invincible, but sadly, I'm not.</name>
+</text>
+
+<text>
+	<id>614</id>
+	<name>minutes</name>
+</text>
+
+<text>
+	<id>615</id>
+	<name>Craft Tarpaulin</name>
+</text>
+
+<text>
+	<id>616</id>
+	<name>Supply Cache</name>
+</text>
+
+<!-- Difficulty descriptions-->
+<text>
+	<id>617</id>
+	<name>• Hunger and thirst deplete slowly
+• Mild weather
+• Reduced NPC damage to player
+</name>
+</text>
+
+<text>
+	<id>618</id>
+	<name>• Normal hunger and thirst depletion
+• Normal weather
+• Normal NPC damage to player
+</name>
+</text>
+
+<text>
+	<id>619</id>
+	<name>• Hunger and thirst deplete faster
+• Cold weather
+• Increased NPC damage to player
+• More infected in some areas
+</name>
+</text>
+
+<text>
+	<id>620</id>
+	<name>• Hunger and thirst deplete faster
+• Extreme weather
+• NPC ranged attacks can score headshots
+• More powerful infected in some areas
+• Unexplored areas are hidden from the minimap
+</name>
+</text>
+
+<text>
+	<id>621</id>
+	<name>Start
+</name>
+</text>
+
+<text>
+	<id>622</id>
+	<name>Are you sure you want to proceed to the Fifth Island?
+	You will not be able to return.
+</name>
+</text>
+
+<text>
+	<id>623</id>
+	<name>Are you sure you want to proceed to the Fifth Island?
+	You will not be able to return.
+</name>
+</text>
+
+<text>
+	<id>624</id>
+	<name>Fishing rod durability is too low.
+</name>
+</text>
+
+<text>
+	<id>625</id>
+	<name>Craft Molotov Cocktail
+</name>
+</text>
+
+<text>
+	<id>626</id>
+	<name>Molotov Cocktail and Rope
+</name>
+</text>
+
+<text>
+	<id>627</id>
+	<name>Rag x3 = Rope
+</name>
+</text>
+
+<text>
+	<id>628</id>
+	<name>Whiskey + Flare = Molotov Cocktail
+</name>
+</text>
+
+<text>
+	<id>629</id>
+	<name>Cache Supplies
+</name>
+</text>
+
+<text>
+	<id>630</id>
+	<name>Sack × 2 = Tarpaulin
+</name>
+</text>
+
+<text>
+	<id>631</id>
+	<name>Tarpaulin + Wood = Supply Cache
+Supplies hidden inside will not disappear
+</name>
+</text>
+
+<text>
+	<id>632</id>
+	<name>Mike "The Designer"
+Unlock Requirement: Reach the Unknown Island
+On "Legendary" difficulty
+</name>
+</text>
+
+<text>
+	<id>633</id>
+	<name>Mike "The Designer"
+Equipment: Awesome Hoodie, Work Pants, Sword, Vector SMG, Energy Drink×4, .45 ACP Ammo×60
+Special Skills: Marksman, Scouting, Sprinter, Lethal Strike</name>
+</text>
+
+<text>
+	<id>634</id>
+	<name>Medical Tape
+Unlock Requirement: Escape with Emilio "The Doctor", Billy "The Radical", or Dave "The Boxer"</name>
+</text>
+
+<text>
+	<id>635</id>
+	<name>Lighter
+Unlock Requirement: Escape with Lee "The Madman", Sergey "The Slav", or John "The Biker"</name>
+</text>
+
+<text>
+	<id>636</id>
+	<name>Smoke Grenade
+Unlock Requirement: Escape with Ganzo "The Dragon", Tom "The Survivor", or Garry "The Veteran"</name>
+</text>
+
+<text>
+	<id>637</id>
+	<name>Laser Sight
+Unlock Requirement: Escape with Kate "The Traveler", Jasmine "The Lumberjack", or Aika "The War Correspondent"</name>
+</text>
+
+<text>
+	<id>638</id>
+	<name>Keycard
+Unlock Requirement: Escape with Xavier "The Pilot", Rudolf "The Hunter", Taman "The Guard", or Daria "The Scientist"</name>
+</text>
+
+<text>
+	<id>639</id>
+	<name>...Repeat! We hear you! We'll be there in one day! Hang on...</name>
+</text>
+
+<text>
+	<id>640</id>
+	<name>Try using the radio to contact nearby survivors?</name>
+</text>
+
+<text>
+	<id>641</id>
+	<name>Smoke</name>
+</text>
+
+<text>
+	<id>642</id>
+	<name>Protect</name>
+</text>
+
+<text>
+	<id>643</id>
+	<name>Fertilize</name>
+</text>
+
+<text>
+	<id>644</id>
+	<name>Items</name>
+</text>
+
+<text>
+	<id>645</id>
+	<name>Medical Tape
+Unlocked
+Spawns in: Hospitals, Cities</name>
+</text>
+
+<text>
+	<id>646</id>
+	<name>Lighter
+Unlocked
+Spawns in: Fire Stations, Warehouses</name>
+</text>
+
+<text>
+	<id>647</id>
+	<name>Smoke Grenade
+Unlocked
+Spawns in: Bunkers, Military Bases</name>
+</text>
+
+<text>
+	<id>648</id>
+	<name>Laser Sight
+Unlocked
+Spawns in: Bunkers, Military Bases</name>
+</text>
+
+<text>
+	<id>649</id>
+	<name>Keycard
+Unlocked
+Carried by infected officers</name>
+</text>
+
+<text>
+	<id>650</id>
+	<name>I need fire to light this.</name>
+</text>
+
+<text>
+	<id>651</id>
+	<name>I can't sleep. I can't miss the rescue helicopter.</name>
+</text>
+
+<text>
+	<id>652</id>
+	<name>I can't go into the bunker. I can't miss the rescue helicopter.</name>
+</text>
+
+<text>
+	<id>653</id>
+	<name>Hey, survivor! I'm Boris, welcome aboard!</name>
+</text>
+
+<text>
+	<id>654</id>
+	<name>Nadia, head east, signal 4316!</name>
+</text>
+
+<text>
+	<id>655</id>
+	<name>Survivor has escaped.</name>
+</text>
+
+<text>
+	<id>656</id>
+	<name>I need to get back to the radio!</name>
+</text>
+
+<text>
+	<id>657</id>
+	<name>Unknown Island #</name>
+</text>
+
+<text>
+	<id>658</id>
+	<name>Are you ready to use the elevator?
+	You will not be able to return.</name>
+</text>
+
+<text>
+	<id>659</id>
+	<name>This door requires a Keycard.</name>
+</text>
+
+<text>
+	<id>660</id>
+	<name>I need a plant.</name>
+</text>
+
+<text>
+	<id>661</id>
+	<name>Keyboard (WASD)</name>
+</text>
+
+<text>
+	<id>662</id>
+	<name>Thanks!</name>
+</text>
+
+<text>
+	<id>663</id>
+	<name>Craft Makeshift Suppressor</name>
+</text>
+
+<text>
+	<id>664</id>
+	<name>Combine</name>
+</text>
+
+<text>
+	<id>665</id>
+	<name>Build Bed</name>
+</text>
+
+<text>
+	<id>666</id>
+	<name>Bob "Hooded Bandit"
+Unlock Requirement: Unlock all characters
+</name>
+</text>
+
+<text>
+	<id>667</id>
+	<name>Bob "Hooded Bandit"
+Equipment: Trench Coat, Work Pants, Gorka Helmet, Bulletproof Vest, AKM, 7.62x39mm Ammo×50, Rifle Sling
+Special Skills: Marksman (Level 2), Scouting (Level 2)
+Special Quirks: Reputation -100, starts with a bandit buddy
+</name>
+</text>
+
+<text>
+	<id>668</id>
+	<name>• Includes all Legendary difficulty settings
+• All characters start from scratch
+• All positive modifiers forcibly disabled
+• All negative modifiers forcibly enabled
+• Extended features disabled
+</name>
+</text>
+
+<!-- Protective Boot Covers-->
+<text>
+	<id>700</id>
+	<name>A pair of boots with excellent airtightness and waterproofing.
+
+Part of a complete protective suit.
+When worn, allows ignoring ground acid.
+</name>
+</text>
+
+<!-- Protective Gloves-->
+<text>
+	<id>701</id>
+	<name>A pair of gloves with excellent airtightness and waterproofing.
+
+Part of a complete protective suit.
+When worn, looting zombies has no penalty.
+</name>
+</text>
+
+<!-- Class A Protective Suit-->
+<text>
+	<id>702</id>
+	<name>An airtight Class A Protective Suit.
+
+Effect activates when durability is above 50%. Full protection requires gloves and boots.
+Rainproof, Radiation-proof, Biohazard-proof (requires full protection).
+Can be sealed to block contaminated air for 2 minutes (requires full protection).</name>
+</text>
+
+<!-- Class C Protective Suit-->
+<text>
+	<id>703</id>
+	<name>A basic protection Class C Protective Suit.
+
+Effect activates when durability is above 50%. Full protection requires gloves and boots.
+Rainproof, Biohazard-proof (requires full protection).</name>
+</text>
+
+<!-- 12 Gauge Drum Mag-->
+<text>
+	<id>704</id>
+	<name>A drum magazine that holds 20 rounds of 12 Gauge.
+
+Fits on: Saiga-12k
+</name>
+</text>
+
+<!-- Paint Can-->
+<text>
+	<id>705</id>
+	<name>Can change the color of clothes, pants, backpacks, and vehicles.
+</name>
+</text>
+
+<!-- Headlamp-->
+<text>
+	<id>706</id>
+	<name>A hands-free lighting device worn on the head with an adjustable strap.
+
+Heat: +1
+Requires a battery to operate
+</name>
+</text>
+
+<!-- Night Vision Goggles-->
+<text>
+	<id>707</id>
+	<name>Battery-powered Night Vision Goggles for intensifying images in low-light environments. Comes with a headstrap.
+
+Heat: +1
+Requires a battery to operate
+</name>
+</text>
+
+<!-- AI-2 Medkit-->
+<text>
+	<id>708</id>
+	<name>The original AI-2 Cold War-era medical kit designed to protect Soviet citizens and military personnel from chemical, biological, radiological, and nuclear threats.
+
+Health: +50
+Effect: Stops bleeding and temporarily grants immunity to radiation
+Duration: 120 sec
+</name>
+</text>
+
+<!-- Dog Crate-->
+<text>
+	<id>709</id>
+	<name>A weathered dog kennel with chew marks on the door. Tucked inside, a brown, short-haired dog naps peacefully, curled up on a bed of hay.
+
+Can release or recall your dog
+Your dog can fetch the first item it picks up
+</name>
+</text>
+
+<!-- Adrenaline-->
+<text>
+	<id>710</id>
+	<name>A psychostimulant adrenaline used for enhancing attention, cognition, and physical performance.
+
+Health: +10
+Effect: Increases Headshot Chance, Block Chance, and Movement Speed by 20% each
+Duration: 120 sec
+Max Stack: 3
+</name>
+</text>
+
+<!-- Class A Military CBRN Suit-->
+<text>
+	<id>711</id>
+	<name>A military-grade protective suit, allowing attachment of a Ghillie suit, Kevlar vest, or M Heavy Armor.
+
+Effect activates when durability is above 50%. Full protection requires gloves and boots.
+Rainproof, Radiation-proof, Biohazard-proof (requires full protection).
+Can be sealed to block contaminated air for 2 minutes (requires full protection).</name>
+</text>
+
+<!-- Advanced Map-->
+<text>
+	<id>712</id>
+	<name>Specifies the type of next island and reveals the next island's map.
+</name>
+</text>
+
+<!-- Class B Protective Suit-->
+<text>
+	<id>713</id>
+	<name>A radiation-proof Class B Protective Suit.
+
+Effect activates when durability is above 50%. Full protection requires gloves and boots.
+Rainproof, Radiation-proof, Biohazard-proof (requires full protection).</name>
+</text>
+
+<!-- Deer Hide-->
+<text>
+	<id>714</id>
+	<name>A supple, durable, and lightweight leather known for its exceptional softness and breathability. Deerskin is considered a luxury leather.
+
+Can be crafted: Bed (requires Wood)</name>
+</text>
+
+<!-- C-MAG 5.45-->
+<text>
+	<id>715</id>
+	<name>A double drum magazine that holds 95 rounds of 5.45x39.
+
+Fits on: AK-74, AKs-74u
+</name>
+</text>
+
+<!-- Spiked Collar-->
+<text>
+	<id>716</id>
+	<name>Commands your dog to actively attract and attack zombies.
+
+May fail against high-threat targets.
+</name>
+</text>
+
+<!-- Pannier Bag-->
+<text>
+	<id>717</id>
+	<name>Your dog will automatically pick up items of the same type it is carrying.
+
+Auto-picked items cannot be carried to the next island.
+</name>
+</text>
+
+<!-- Egg-->
+<text>
+	<id>718</id>
+	<name>Organic eggs. High in protein, come from country hens that are free to roam outside during the day and are housed safely and securely in hen houses at night.
+
+Hunger: +10
+Thirst: +10
+Max Stack: 3
+Ingredient for: Fried Egg, Scrambled Eggs with Tomatoes
+</name>
+</text>
+
+<!-- Raw Chicken-->
+<text>
+	<id>719</id>
+	<name>Uncooked poultry, a good source of protein.
+
+Hunger: +25
+Thirst: +10
+Consuming has a 50% chance to cause sickness
+Can be cooked over a fire
+Ingredient for: Pepper Steak
+</name>
+</text>
+
+<!-- Cooked Chicken-->
+<text>
+	<id>720</id>
+	<name>Raw chicken roasted over a campfire.
+
+Hunger: +35
+Thirst: +10
+Health: +20
+</name>
+</text>
+
+<!-- Pistol Sight-->
+<text>
+	<id>721</id>
+	<name>A basic RDS pistol sight.
+
+Spread: -1
+Headshot Chance: +5%
+Fits on: FNX, Glock, Desert Eagle
+</name>
+</text>
+
+<!-- Pistol Suppressor-->
+<text>
+	<id>722</id>
+	<name>A pistol suppressor of a high caliber; should silence smaller calibers as well.
+
+Provides sound suppression
+Fits on: FNX, Colt 1911, Glock, Desert Eagle, MAC-10, Mini-UZI, MP5K, UMP-45, Bizon, Vector
+</name>
+</text>
+
+<!-- Pistol Flashlight-->
+<text>
+	<id>723</id>
+	<name>A tactical light used in conjunction with a pistol to illuminate the target.
+
+Fits on: FNX, Colt 1911, Glock
+</name>
+</text>
+
+<!-- Fried Egg-->
+<text>
+	<id>724</id>
+	<name>A fried egg, sunny-side up. Simple and delicious.
+
+Hunger: +20
+Thirst: +5
+Health: +5
+Immunity: +5
+</name>
+</text>
+
+<!-- Pepper Steak-->
+<text>
+	<id>725</id>
+	<name>This classic stir-fry combines tender, thinly sliced meat with crisp bell peppers in a savory dish. Garnish and serve.
+
+Hunger: +60
+Thirst: +15
+Health: +30
+Immunity: +30
+</name>
+</text>
+
+<!-- Scrambled Eggs with Tomatoes-->
+<text>
+	<id>726</id>
+	<name>A simple but super comforting dish that's popular in home cooking, made by scrambling eggs on a hot pan and adding diced tomatoes.
+
+Hunger: +35
+Thirst: +20
+Health: +10
+Immunity: +10
+</name>
+</text>
+
+<!-- Spotlight-->
+<text>
+	<id>727</id>
+	<name>A searchlight tripod stand and the headlights that go on top. Can illuminate large areas when powered by a generator.
+
+Provides illumination, requires a generator to function
+Can be deployed in bunkers
+</name>
+</text>
+
+<!-- Earthworms-->
+<text>
+	<id>728</id>
+	<name>Common earthworms, excellent bait for fishing.
+
+Hunger: +5
+Immunity: -10
+Max Stack: 10
+Can repair fishing rod durability
+</name>
+</text>
+
+<!-- Improvised VOG-25 Grenade-->
+<text>
+	<id>729</id>
+	<name>A modified hand grenade version of the VOG-25 grenade round. A homemade Russian ingenuity.
+
+Explodes on impact
+</name>
+</text>
+
+<!-- FNX-45 (Duplicate)-->
+<text>
+	<id>730</id>
+	<name>A nimble pistol favored by many.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 21-35             Spread: 6
+Aim Speed: 4               Recoil: 9
+Run Penalty: 2              Ammo: .45 ACP
+Mag Capacity: 15
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Colt 1911 (Duplicate)-->
+<text>
+	<id>731</id>
+	<name>"God created men, Colt made them equal."
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 18-30             Spread: 6
+Aim Speed: 4               Recoil: 10
+Run Penalty: 2              Ammo: .45 ACP
+Mag Capacity: 7
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Magnum Revolver (Duplicate)-->
+<text>
+	<id>732</id>
+	<name>One of the most powerful handguns in the world.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 34-56             Spread: 6
+Aim Speed: 2               Recoil: 15
+Run Penalty: 3              Ammo: .357
+Mag Capacity: 6
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Amphibia S (Duplicate)-->
+<text>
+	<id>733</id>
+	<name>A pistol designed for underwater combat by naval personnel.
+Integrated Suppressor
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 11-19             Spread: 4
+Aim Speed: 4               Recoil: 9
+Run Penalty: 3              Ammo: .22 LR
+Mag Capacity: 10
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Glock 17 (Duplicate)-->
+<text>
+	<id>734</id>
+	<name>A semi-automatic pistol made in Austria.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 15-25             Spread: 5
+Aim Speed: 4               Recoil: 10
+Run Penalty: 2              Ammo: 9mm
+Mag Capacity: 18
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Sawn-off IZH-43 (Duplicate)-->
+<text>
+	<id>735</id>
+	<name>A sawn-off version of the IZH-43 shotgun.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 22-188           Spread: 13
+Aim Speed: 3               Recoil: 20
+Run Penalty: 2              Ammo: 12 Gauge
+Mag Capacity: 2
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Sawn-off Mosin (Duplicate)-->
+<text>
+	<id>736</id>
+	<name>A sawn-off version of the Mosin-Nagant rifle.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 79-131           Spread: 12
+Aim Speed: 3               Recoil: 25
+Run Penalty: 1              Ammo: 7.62x54mmR
+Mag Capacity: 5
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Engraved Colt (Duplicate)-->
+<text>
+	<id>737</id>
+	<name>A meticulously engraved Colt pistol.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 18-30             Spread: 5
+Aim Speed: 4               Recoil: 10
+Run Penalty: 2              Ammo: .45 ACP
+Mag Capacity: 12
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Sawn-off Rossi M92 (Duplicate)-->
+<text>
+	<id>738</id>
+	<name>"This is wild country out here, ma'am." -Josh Randall
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 34-56             Spread: 11
+Aim Speed: 3               Recoil: 17
+Run Penalty: 2              Ammo: .357
+Mag Capacity: 7
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- PM Makarov (Duplicate)-->
+<text>
+	<id>739</id>
+	<name>Small, lightweight, favored by Soviet officers.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 18-30             Spread: 8
+Aim Speed: 4               Recoil: 10
+Run Penalty: 2              Ammo: 9x18mm
+Mag Capacity: 8
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- PB Silent Pistol (Duplicate)-->
+<text>
+	<id>740</id>
+	<name>A Soviet integrally suppressed, semi-automatic pistol developed for covert special operations by the KGB and Spetsnaz.
+Integrated Suppressor
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 18-30             Spread: 9
+Aim Speed: 4               Recoil: 8
+Run Penalty: 2              Ammo: 9x18mm
+Mag Capacity: 8
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Desert Eagle (Duplicate)-->
+<text>
+	<id>741</id>
+	<name>A favorite among firearm collectors.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 30-50             Spread: 6
+Aim Speed: 3               Recoil: 13
+Run Penalty: 2              Ammo: .357
+Mag Capacity: 9
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- M79 (Duplicate)-->
+<text>
+	<id>742</id>
+	<name>It might look outdated, but it's still effective.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 45-540           Spread: 8
+Aim Speed: 3               Recoil: 6
+Run Penalty: 2              Ammo: 40mm Grenade
+Mag Capacity: 1
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Sawn-off Blaze (Duplicate)-->
+<text>
+	<id>743</id>
+	<name>A sawn-off version of the Blaze double-barreled rifle.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 71-119           Spread: 12
+Aim Speed: 3               Recoil: 10
+Run Penalty: 2              Ammo: .308
+Mag Capacity: 2
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Longhorn (Duplicate)-->
+<text>
+	<id>744</id>
+	<name>Single-shot break-action hunting pistol. Suited for hunting game, comes with an integrated scope.
+Integrated Scope
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 79-131           Spread: 1
+Aim Speed: 2               Recoil: 25
+Run Penalty: 2              Ammo: .308
+Mag Capacity: 1
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- MAC-10 (Duplicate)-->
+<text>
+	<id>745</id>
+	<name>One of the world-famous firearms made in the USA.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 15-25             Spread: 10
+Aim Speed: 3               Recoil: 2
+Run Penalty: 0              Reload Time: 2s
+Mag Capacity: 30          Ammo: 9mm
+Fire Rate: 650 RPM
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Mini-UZI (Duplicate)-->
+<text>
+	<id>746</id>
+	<name>A lightweight submachine gun manufactured in Israel.
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+Damage: 18-30             Spread: 10
+Aim Speed: 3               Recoil: 2
+Run Penalty: 0              Reload Time: 2s
+Mag Capacity: 22          Ammo: .45 ACP
+Fire Rate: 600 RPM
+ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶
+</name>
+</text>
+
+<!-- Equal Exchange (Moved to end)-->
+<text>
+	<id>64</id>
+	<name>AK Grip 🔄 Rail Grip   5.45 Suppressor 🔄 5.56 Suppressor
+GP-25 Launcher 🔄 M203 Launcher
+40mm Grenade 🔄 VOG Grenade
+Quick-Draw Mag 🔄 Bandolier   ACOG 🔄 PSO-1
+Cleaning Kit 🔄 Blowtorch   Pepsi 🔄 Nota-Cola
+1PN51 NVD 🔄 PVS-4 NVD
+C-MAG (5.45) 🔄 C-MAG (5.56)
+7.62×39 Drum 🔄 12 Gauge Drum
+</name>
+</text>
+
+<!-- Item Locker-->
+<text>
+	<id>65</id>
+	<name>Carry Capacity: +6
+Items stored inside can be carried over to the next game.
+</name>
+</text>
+
+<!-- Build Mode-->
+<text>
+	<id>66</id>
+	<name>When deploying, pressing X to cancel no longer returns the item, but stores it inside.
+</name>
+</text>
+
+<!-- EXP Shop-->
+<text>
+	<id>67</id>
+	<name>The random item list refreshes daily at 00:00.
+</name>
+</text>
+
+<text>
+	<id>747</id>
+	<name>A highly powerful explosive device, once placed and activated with a timer, continuously attracts zombies. It explodes after a 15-second countdown.
+</name>
+</text>
+
+<text>
+	<id>748</id>
+	<name>A red hat full of festive atmosphere
+</name>
+</text>
+
+<text>
+	<id>749</id>
+	<name>Gifts from winter
+</name>
+</text>
+
+<text>
+	<id>750</id>
+	<name>If you have an appetite and no moral compass, you can eat this in an emergency.
+
+Satiety +15, Hydration +10, Health -10, 100% chance of getting sick after consumption. 
+</name>
+</text>
+
+<text>
+	<id>751</id>
+	<name>If you have an appetite and no moral compass, you can eat this in an emergency.
+
+Satiety +25, Hydration +10, Health -10, 50% chance of getting sick after consumption.
+</name>
+</text>
+
+<text>
+	<id>752</id>
+	<name>Carrying capacity +2
+</name>
+</text>
+
+<text>
+	<id>753</id>
+	<name>Carry capacity +1, Tool storage slots +3. Can store knives, matches, lighters, flares, and military water bottles.
+</name>
+</text>
+
+<text>
+	<id>754</id>
+	<name>Carrying capacity +1 Medical storage compartments +3 Can store any medical supplies and any medications
+</name>
+</text>
+
+<!-- Weapon Storage Case (ID 755)-->
+<text>
+	<id>755</id>
+	<name>A sturdy, reinforced container designed specifically for secure firearm storage. Features protective foam padding to keep your weapon safe from damage and corrosion.
+
+Can store or retrieve one primary weapon.
+The sealed case protects your firearm from the elements and prevents durability loss over time.
+Perfect for keeping a spare weapon or saving a favorite firearm for future use.
+</name>
+</text>
+
+<!-- Waist Holster (ID 756)-->
+<text>
+	<id>756</id>
+	<name>A comfortable, adjustable holster designed to be worn on the waist. Keeps a secondary weapon secure yet easily accessible.
+
+Can be attached to the waist as an accessory to carry an additional secondary firearm.
+Quick-draw design allows for faster switching to your sidearm.
+</name>
+</text>
+
+<text>
+	<id>757</id>
+	<name>Thickened work gloves, providing warmth, comfort and excellent cold protection.
+
+Heat +3
+When equipped, looting zombies has no penalty
+</name>
+</text>
+
+</list>
+
